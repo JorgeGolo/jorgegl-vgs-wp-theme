@@ -13,21 +13,21 @@
 
 	<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-8 md:gap-16 px-4 md:px-8 py-12">
 
-		<div class="footer-contacto space-y-3 md:w-1/3 text-[13px] self-end">
+		<div class="footer-contacto space-y-3 md:w-1/3 text-[13px] md:self-end">
 			<p>
 				<a href="mailto:dominio@dominio.es" class="inline-flex items-center gap-1">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/email-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/info/email-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
 					<?php esc_html_e( 'dominio@dominio.es', 'jorgegl-vgs-wp-theme' ); ?>
 				</a>
 			</p>
 			<p>
 				<a href="tel:+34123456789" class="inline-flex items-center gap-1">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/phone-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/info/phone-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
 					123 456 789
 				</a>
 			</p>
 			<p class="flex items-start gap-1">
-				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/location-icon.svg' ); ?>"
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/info/location-icon.svg' ); ?>"
 					alt="" class="w-4 h-4 shrink-0 mt-0.5" loading="lazy">
 				<span>
 					<?php esc_html_e( 'Polígono Industrial "XX XXXXXX"', 'jorgegl-vgs-wp-theme' ); ?><br>

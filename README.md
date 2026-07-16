@@ -76,12 +76,21 @@ _(en construcción)_
    - Registramos menús en wp-content\themes\jorgegl-vgs-wp-theme\theme\functions.php
    - Modifcamos wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\layout\footer-content.php para mostrar menús y nuevos elementos
    - NOTA: en Figma, los elementos del menú no parecen centrados ni alineados. Sería fácil de replicar usando clases "gap" de Tailwind
-   - Iconos sociales en su carpeta correspondiente del tema, clases apply 
-   - 
+   - Iconos sociales en su carpeta correspondiente del tema, clases apply, alineación corerecta
+
 
 ## Resumen de decisiones técnicas
 
-- Descripción corta de los productos: campo meta
+- Usamos un pligon personalizado para crear los productos
+- Descripción corta de los productos: registramos un campo meta para poder efitar con HTML la descripción corta mostrada en las tarjetas de los productos del front
 - Fuentes alojadas
 - Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
-- Uso la directiva @apply parael estilo del último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
+- Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
+- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente.
+Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
+
+
+### Pendiente
+
+- Redes sociales del footer: registrar la sección correspondiente en el Personalizador (`customize_register`, prevista en `inc/customizer.php`) con los 3 campos de
+URL.
