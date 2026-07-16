@@ -67,3 +67,9 @@
 .entry-content > .alignright {
 	@apply float-right ml-8;
 }
+/**
+ Definiendo el color del último enlace del menú horizontal principal, primary-menu, declarado en header-content.php
+ */
+#primary-menu li:last-child a {
+	@apply text-secondary font-semibold;
+}
