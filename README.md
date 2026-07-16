@@ -34,6 +34,10 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 > ⚠️ Importante: el repositorio no incluye los archivos compilados (`style.css`, `*.min.js`) ni `node_modules`, siguiendo el `.gitignore` oficial del starter theme. Es imprescindible correr `npm install` + `npm run dev` (o `watch`) tras clonar para ver el tema con estilos.
 
+## Plugin CPT
+
+- Enlace al repositorio:
+
 ## Desarrollo
 
 ### Requisitos
@@ -51,10 +55,24 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 _(en construcción)_
 
-- [ ] Custom Post Type "Productos" (plugin a medida)
-- [ ] `front-page.php` según diseño de Figma
-- [ ] Componente reutilizable de tarjeta de Producto
-- [ ] Bucle personalizado (últimos 6 productos)
 - [ ] Slider principal editable
 
-## Decisiones técnicas
+### Personalización del tema
+
+#### Fuentes
+
+- Descargar la fuente de https://gwfh.mranftl.com/fonts/roboto?subsets=latin
+- Colocados los archivos de fuentes en themes/fonts
+- Archivos modificados para instalar la fuente
+	- wp-content\themes\jorgegl-vgs-wp-theme\tailwind\tailwind-theme.css - declarar la variable del nombre de la fuente
+	- theme/tailwind/custom/fonts.css - Font-fase
+
+#### Página de inicio
+
+- Creo la tarjeta para mostrar en buble los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
+- Creo la página de inicio en jorgegl-vgs-wp-theme/theme/front-page.php, con el bucle para mostrar los productos
+
+## Resumen de decisiones técnicas
+
+- Descripción corta de los productos: campo meta
+- Fuentes alojadas
