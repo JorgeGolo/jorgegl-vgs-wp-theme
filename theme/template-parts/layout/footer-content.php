@@ -11,22 +11,28 @@
 
 <footer id="colophon" class="bg-azul text-white">
 
-	<div class="max-w-wide mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 py-12">
+	<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-8 md:gap-16 px-4 md:px-8 py-12">
 
-		<div class="footer-contacto space-y-3">
+		<div class="footer-contacto space-y-3 md:w-1/3 text-[13px] self-end">
 			<p>
-				<a href="mailto:dominio@dominio.es" class="inline-flex items-center gap-2">
+				<a href="mailto:dominio@dominio.es" class="inline-flex items-center gap-1">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/email-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
 					<?php esc_html_e( 'dominio@dominio.es', 'jorgegl-vgs-wp-theme' ); ?>
 				</a>
 			</p>
 			<p>
-				<a href="tel:+34123456789" class="inline-flex items-center gap-2">
+				<a href="tel:+34123456789" class="inline-flex items-center gap-1">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/phone-icon.svg' ); ?>" alt="" class="w-4 h-4" loading="lazy">
 					123 456 789
 				</a>
 			</p>
-			<p>
-				<?php esc_html_e( 'Polígono Industrial "XX XXXXXX"', 'jorgegl-vgs-wp-theme' ); ?><br>
-				<?php esc_html_e( 'Parcela XX 12345, Zaragoza', 'jorgegl-vgs-wp-theme' ); ?>
+			<p class="flex items-start gap-1">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/location-icon.svg' ); ?>"
+					alt="" class="w-4 h-4 shrink-0 mt-0.5" loading="lazy">
+				<span>
+					<?php esc_html_e( 'Polígono Industrial "XX XXXXXX"', 'jorgegl-vgs-wp-theme' ); ?><br>
+					<?php esc_html_e( 'Parcela XX 12345, Zaragoza', 'jorgegl-vgs-wp-theme' ); ?>
+				</span>
 			</p>
 		</div>
 
@@ -76,6 +82,33 @@
 				);
 			endif;
 			?>
+
+
+			<div class="social-icons flex gap-2 justify-start mt-4">
+			
+			<a href="#" target="_blank" rel="noopener noreferrer"
+				aria-label="Facebook"
+				class="social-icon">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/fb-icon.svg' ); ?>"
+						alt="" class="w-4 h-4" loading="lazy">
+				</a>
+
+				<a href="#" target="_blank" rel="noopener noreferrer"
+				aria-label="X (Twitter)"
+				class="social-icon">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/x-icon.svg' ); ?>"
+						alt="" class="w-4 h-4" loading="lazy">
+				</a>
+
+				<a href="#" target="_blank" rel="noopener noreferrer"
+				aria-label="Instagram"
+				class="social-icon">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/ig-icon.svg' ); ?>"
+						alt="" class="w-4 h-4" loading="lazy">
+				</a>
+
+			</div>
+
 		</div>
 
 		<div class="footer-legal">
@@ -99,9 +132,7 @@
 
 	</div>
 
-	<div class="social-icons flex gap-4 justify-center pb-8">
-		<?php // Iconos Facebook / X / Instagram — pendiente, siguiente paso. ?>
-	</div>
+
 
 	<div class="copyright bg-azul-oscuro text-white flex items-center justify-center h-[70px] font-sans text-xs/6">
 		Copyright &copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php esc_html_e( 'Empresa', 'jorgegl-vgs-wp-theme' ); ?> | <?php esc_html_e( 'Todos los derechos reservados', 'jorgegl-vgs-wp-theme' ); ?>

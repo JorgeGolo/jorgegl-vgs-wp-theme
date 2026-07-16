@@ -73,13 +73,21 @@
 #primary-menu li:last-child a {
 	@apply text-secondary font-semibold;
 }
+/** FOOTER **/
+
 /**
  Headings de las columnas del Footer 
   */
 .footer-col-title {
-	@apply text-verde mb-4 font-sans text-[15px] leading-5 font-bold uppercase;
+	@apply text-verde mb-4 font-sans text-base leading-5 font-bold uppercase;
 }
 
 .footer-col-list {
-	@apply list-none space-y-1 text-[15px] leading-5;
+	@apply list-none space-y-1 text-[13px] leading-5;
+}
+/**
+ Redes sociales
+  */
+.social-icon {
+	@apply bg-verde flex h-10 w-10 items-center justify-center rounded-full transition-opacity hover:opacity-90;
 }

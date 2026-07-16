@@ -73,7 +73,11 @@ _(en construcción)_
 - Creo la página de inicio en jorgegl-vgs-wp-theme/theme/front-page.php, con el bucle para mostrar los productos
 - Creo el menú principal "a mano" desde el editor del tema
 - Diseño del footer
-   - Color de fondo 
+   - Registramos menús en wp-content\themes\jorgegl-vgs-wp-theme\theme\functions.php
+   - Modifcamos wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\layout\footer-content.php para mostrar menús y nuevos elementos
+   - NOTA: en Figma, los elementos del menú no parecen centrados ni alineados. Sería fácil de replicar usando clases "gap" de Tailwind
+   - Iconos sociales en su carpeta correspondiente del tema, clases apply 
+   - 
 
 ## Resumen de decisiones técnicas
 
