@@ -25,6 +25,9 @@
 	--container-content: var(--wp--style--global--content-size);
 	--container-wide: var(--wp--style--global--wide-size);
 
+	--color-verde: var(--wp--preset--color--verde);
+	--color-azul: var(--wp--preset--color--azul);
+
 	/**
 	 * These are the default `font-family` theme variables included with
      * Tailwind. You can update them below by adding custom fonts at the

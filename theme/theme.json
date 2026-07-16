@@ -28,6 +28,16 @@
 					"slug": "tertiary",
 					"color": "#0369a1",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "verde",
+					"color": "#9FCE00",
+					"name": "Verde"
+				},
+				{
+					"slug": "azul",
+					"color": "#3E509D",
+					"name": "Azul"
 				}
 			]
 		},
