@@ -81,7 +81,8 @@ if ( ! function_exists( '_tw_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => __( 'Primary', '_tw' ),
-				'menu-2' => __( 'Footer Menu', '_tw' ),
+				'menu-2' => __( 'Footer - Información general', 'jorgegl-vgs-wp-theme' ),
+				'menu-3' => __( 'Footer - Información legal', 'jorgegl-vgs-wp-theme' ),
 			)
 		);
 

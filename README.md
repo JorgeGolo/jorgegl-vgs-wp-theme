@@ -71,8 +71,13 @@ _(en construcción)_
 
 - Creo la tarjeta para mostrar en buble los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
 - Creo la página de inicio en jorgegl-vgs-wp-theme/theme/front-page.php, con el bucle para mostrar los productos
+- Creo el menú principal "a mano" desde el editor del tema
+- Diseño del footer
+   - Color de fondo 
 
 ## Resumen de decisiones técnicas
 
 - Descripción corta de los productos: campo meta
 - Fuentes alojadas
+- Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
+- Uso la directiva @apply parael estilo del último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css

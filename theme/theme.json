@@ -38,7 +38,13 @@
 					"slug": "azul",
 					"color": "#3E509D",
 					"name": "Azul"
+				},
+				{ 
+					"slug": "azul-oscuro", 
+					"color": "#1A2862", 
+					"name": "Azul oscuro"
 				}
+
 			]
 		},
 		"layout": {

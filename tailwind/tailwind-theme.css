@@ -27,6 +27,7 @@
 
 	--color-verde: var(--wp--preset--color--verde);
 	--color-azul: var(--wp--preset--color--azul);
+	--color-azul-oscuro: var(--wp--preset--color--azul-oscuro);
 
 	/**
 	 * These are the default `font-family` theme variables included with
