@@ -91,3 +91,38 @@
 .social-icon {
 	@apply bg-verde flex h-10 w-10 items-center justify-center rounded-full transition-opacity hover:opacity-90;
 }
+
+.section-title {
+	@apply text-2xl md:text-4xl;
+}
+
+/**
+Testimonios
+*/
+.carousel-arrow {
+	@apply flex h-14 w-14 items-center justify-center rounded-full transition-colors disabled:cursor-not-allowed;
+}
+
+.carousel-arrow--outline {
+	@apply border-azul text-azul hover:bg-azul border-2 hover:text-white;
+}
+
+.carousel-arrow--solid {
+	@apply bg-azul hover:bg-verde text-white;
+}
+
+.carousel-arrow:disabled {
+	@apply text-azul border-azul hover:text-azul cursor-not-allowed border-2 bg-white hover:bg-white;
+}
+
+/**
+ * Hides the native scrollbar on horizontally-scrolling elements (e.g. the
+ * testimonials carousel), which uses custom prev/next buttons instead.
+ */
+.scrollbar-hide {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}

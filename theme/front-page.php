@@ -38,7 +38,7 @@ get_header();
 
 	<!-- --- Bucle personalizado: últimos 6 Productos --- -->
 	<section class="productos-destacados py-12 px-4 md:px-8">
-		<h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">
+		<h2 class="section-title font-bold mb-8 text-center">
 			<?php esc_html_e( 'Nuestros Productos', 'jorgegl-vgs-wp-theme' ); ?>
 		</h2>
 
@@ -80,6 +80,8 @@ get_header();
 </main>
 
 <?php
+
+get_template_part( 'template-parts/testimonials' );
 
 get_template_part( 'template-parts/advisory-cta' );
 
