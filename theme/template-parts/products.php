@@ -22,7 +22,7 @@
                 [
                     'post_type'      => 'producto',
                     'posts_per_page' => 6,
-                    'orderby'        => 'date',
+            		'orderby'        => 'menu_order',
                     'order'          => 'DESC',
                     'no_found_rows'  => true, // No hace falta paginación aquí.
                 ]
