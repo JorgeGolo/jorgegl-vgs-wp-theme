@@ -82,7 +82,7 @@ _(en construcción)_
    - Se crea el archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\advisory-cta.php y se llama desde font-ñpage.php que hará de orquestador
    - Creamos la carpeta para imágenes wp-content\themes\jorgegl-vgs-wp-theme\theme\images\decorative
 - Testimonios: archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
-   - Creamos un script para que sea un verdadeo carrusel y ñlos botones tengan funcionalidad
+   - Creamos un script para que sea un verdadeo carrusel y los botones tengan funcionalidad
 
 ## Resumen de decisiones técnicas
 
@@ -100,4 +100,6 @@ Se hizo una excepción con el slider principal: al depender directamente de the_
 
 - Redes sociales del footer: registrar la sección correspondiente en el Personalizador (`customize_register`, prevista en `inc/customizer.php`) con los 3 campos de
 URL.
-- Los testimonios podrían administrarse desde el tema, tanto el contenido como la cantidad de los mismos
+- Los testimonios podrían administrarse, tanto el contenido como la cantidad de los mismos
+   - Desde el tema con un CPT que viva en functions.php
+   - Desde un plugin
