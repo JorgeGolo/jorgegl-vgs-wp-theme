@@ -40,6 +40,8 @@ get_header();
 
 <?php
 
+get_template_part( 'template-parts/why-us' );
+
 get_template_part( 'template-parts/products' );
 
 get_template_part( 'template-parts/budget-form' );

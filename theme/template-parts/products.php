@@ -8,7 +8,7 @@
  */
 ?>
 <!-- --- Bucle personalizado: últimos 6 Productos --- -->
-	<section class="productos-destacados pt-12 py-16 px-4 md:px-8">
+	<section class="productos-destacados pt-12 py-16 px-4 md:px-8 bg-[#F5F8F9]">
 
     	<div class="max-w-7xl mx-auto text-center">
 
@@ -30,7 +30,7 @@
 
             if ( $productos_query->have_posts() ) :
                 ?>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 pt-4">
                     <?php
                     while ( $productos_query->have_posts() ) :
                         $productos_query->the_post();

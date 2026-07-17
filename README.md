@@ -93,6 +93,7 @@ _(en construcción)_
 - Formulario de presupuestos: también una template-part
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
 - Grid de productos cambiado a un template-part
+- Sección de tarjetas "¿Por Qué..."?
 
 ## Resumen de decisiones técnicas generales
 
@@ -101,6 +102,7 @@ _(en construcción)_
 - Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
 - Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
 - Se usó max-w-7x1 como ancho para todo el contenido
+- Se utilizaron sub carpetas para los iconos dependiendo de la sección
 
 ### Testimonios
 
@@ -125,6 +127,11 @@ _(en construcción)_
 - Descripción corta de los productos: registramos un campo meta para poder efitar con HTML la descripción corta mostrada en las tarjetas de los productos del front
 - Con front-page.php más estructurado, se cambió a un template-part
 - Se ha usado line-clamp para la descripción del producto
+- Se añadió soporte para ordenar los productos por un campo numérico desde el plugin CPT
+
+### Sección ¿Por qué nuestro panel sándwich?
+
+- Algunas clases se quedaron fuera de la directiva apply, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
 
 ### Pendiente
 
