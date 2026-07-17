@@ -155,6 +155,22 @@ function _tw_scripts() {
 add_action( 'wp_enqueue_scripts', '_tw_scripts' );
 
 /**
+ * Enqueue script for the testimonials carousel, only on the front page.
+ */
+function jorgegl_vgs_testimonials_script() {
+	if ( is_front_page() ) {
+		wp_enqueue_script(
+			'jorgegl-vgs-testimonials-carousel',
+			get_template_directory_uri() . '/js/testimonials-carousel.min.js',
+			array(),
+			_TW_VERSION,
+			true
+		);
+	}
+}
+add_action( 'wp_enqueue_scripts', 'jorgegl_vgs_testimonials_script' );
+
+/**
  * Enqueue the block editor script.
  */
 function _tw_enqueue_block_editor_script() {

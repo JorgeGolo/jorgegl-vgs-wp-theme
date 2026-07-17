@@ -68,6 +68,7 @@ _(en construcción)_
 
 #### Colores
 
+
 #### Página de inicio
 
 - Creo la tarjeta para mostrar en buble los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
@@ -76,7 +77,6 @@ _(en construcción)_
 - Diseño del footer
    - Registramos menús en wp-content\themes\jorgegl-vgs-wp-theme\theme\functions.php
    - Modifcamos wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\layout\footer-content.php para mostrar menús y nuevos elementos
-   - NOTA: en Figma, los elementos del menú no parecen centrados ni alineados. Sería fácil de replicar usando clases "gap" de Tailwind
    - Iconos sociales en su carpeta correspondiente del tema, clases apply, alineación corerecta
 - Diseño del CTA
    - Se crea el archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\advisory-cta.php y se llama desde font-ñpage.php que hará de orquestador
@@ -93,11 +93,20 @@ _(en construcción)_
 - Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
 - Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente.
 Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
-- Testimonios: se creó un cuarto testimonio y se hizo funcional el carrusel de testimonios con un script
-- Testimonios: se optaron por clases Tailwind para el tamaño de los controles del carrusel, son muy aproximados a los tamaños del diseño del figma, aunque no exactos.
+
+### Testimonios
+
+- Se optaron por clases Tailwind para el tamaño de los controles del carrusel, son muy aproximados a los tamaños del diseño del figma, aunque no exactos.
+- Se crearon dos testimonios más y se hizo funcional el carrusel de testimonios con un script
+- El script del carrusel de testimonials en principio vivia en un tag script dentro del archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
+- Sacamos el script a un archivo wp-content\themes\jorgegl-vgs-wp-theme\javascript\testimonials-carousel.js
+- Añadimos ./javascript/testimonials-carousel.js a la línea de development:esbuild del package.json, para uqe se genere el archivo theme/js/testimonials-carousel.min.js cuando se compile el tema
+- En functions.php del tema, añadimos el enqueue condicionado para su carga
+- Con esto: el carrusel solo se descarga en la home (is_front_page())
 
 ### Pendiente
 
+- He decidido usar colores adicionales (verde, azul, azul-oscuro) con nombres que faciliten el trabajo de maquetación 
 - Redes sociales del footer: registrar la sección correspondiente en el Personalizador (`customize_register`, prevista en `inc/customizer.php`) con los 3 campos de
 URL.
 - Los testimonios podrían administrarse, tanto el contenido como la cantidad de los mismos
