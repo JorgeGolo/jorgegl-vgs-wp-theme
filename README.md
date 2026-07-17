@@ -85,6 +85,7 @@ _(en construcción)_
    - Creamos un script para que sea un verdadeo carrusel y los botones tengan funcionalidad
 - CTA "servicios": maquetación, misma técnica de template-parts.
 - Formulario de presupuetos: también una template-part
+   - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
 
 ## Resumen de decisiones técnicas
 
@@ -96,6 +97,7 @@ _(en construcción)_
 - Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente.
 Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
 - Se duplicó con exactitud el formulario de contacto, mas habría que tomar una decisión al respecto de los colores de los placeholders debido a las limitaciones del HTML en cuanto a la uniformidad de los mismos con distintos tipos de campo (input vs select)
+- En el formulario se opta por ocultar el adoprnmo de la flecha en determinados tamañlos de pantalla
 
 ### Testimonios
 
