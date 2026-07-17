@@ -38,9 +38,9 @@ $testimonios = array(
 
 	<div class="max-w-7xl mx-auto">
 		<div class="relative mb-10 text-center">
-			<h2 class="section-title font-medium">
-				<span class="text-azul"><?php esc_html_e( 'Reseñas de', 'jorgegl-vgs-wp-theme' ); ?></span>
-				<span class="text-verde"><?php esc_html_e( 'CLIENTES', 'jorgegl-vgs-wp-theme' ); ?></span>
+			<h2 class="section-title">
+				<span class="text-azul font-medium"><?php esc_html_e( 'Reseñas de', 'jorgegl-vgs-wp-theme' ); ?></span>
+				<span class="text-verde font-semibold"><?php esc_html_e( 'CLIENTES', 'jorgegl-vgs-wp-theme' ); ?></span>
 			</h2>
 
 			<div class="hidden md:flex gap-3 absolute right-0 top-1/2 -translate-y-1/2">
@@ -103,43 +103,3 @@ $testimonios = array(
 	</div>
 
 </section>
-
-<script>
-( function () {
-	var track   = document.getElementById( 'testimonials-track' );
-	var prevBtn = document.getElementById( 'testimonials-prev' );
-	var nextBtn = document.getElementById( 'testimonials-next' );
-
-	if ( ! track || ! prevBtn || ! nextBtn ) {
-		return;
-	}
-
-	function scrollStep() {
-		var card = track.querySelector( '.testimonial-card' );
-		if ( ! card ) return 0;
-		var styles = getComputedStyle( track );
-		var gap = parseFloat( styles.columnGap || styles.gap || 0 );
-		return card.offsetWidth + gap;
-	}
-
-	prevBtn.addEventListener( 'click', function () {
-		track.scrollBy( { left: -scrollStep(), behavior: 'smooth' } );
-	} );
-
-	nextBtn.addEventListener( 'click', function () {
-		track.scrollBy( { left: scrollStep(), behavior: 'smooth' } );
-	} );
-
-	function updateButtonState() {
-		var atStart = track.scrollLeft <= 0;
-		var atEnd   = Math.ceil( track.scrollLeft + track.clientWidth ) >= track.scrollWidth;
-
-		prevBtn.disabled = atStart;
-		nextBtn.disabled = atEnd;
-	}
-
-	track.addEventListener( 'scroll', updateButtonState );
-	window.addEventListener( 'resize', updateButtonState );
-	updateButtonState();
-}() );
-</script>

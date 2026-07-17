@@ -9,7 +9,7 @@
 ?>
 <section class="advisory-cta relative bg-verde pt-16 pb-20 px-4 md:px-8 overflow-hidden">
 
-<img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/arrow-2.svg' ); ?>"
+<img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/arrow-white.svg' ); ?>"
      alt=""
      class="hidden md:block absolute right-[calc(50%+13rem)] top-1/2 -translate-y-1/2 w-32 lg:w-64 h-auto"
      loading="lazy" aria-hidden="true">

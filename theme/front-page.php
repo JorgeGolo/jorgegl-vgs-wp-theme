@@ -81,6 +81,8 @@ get_header();
 
 <?php
 
+get_template_part( 'template-parts/professionals' );
+
 get_template_part( 'template-parts/testimonials' );
 
 get_template_part( 'template-parts/advisory-cta' );
