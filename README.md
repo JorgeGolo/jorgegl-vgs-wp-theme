@@ -68,10 +68,16 @@ _(en construcción)_
 
 #### Colores
 
+- He decidido usar colores adicionales (verde, azul, azul-oscuro, azul-tenue) con nombres que faciliten el trabajo de maquetación 
+- Se sustituyó el color foreground por el proporcionado por Figma
+- Siguiendo la arquitectura del tema, se modificaron los siguientes archivos:
+   - wp-content\themes\jorgegl-vgs-wp-theme\theme\theme.json para establecer variables y nuevos colores
+   - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\tailwind-theme.css para declarar dichas variables
+   - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css para el css personalizado de elementos de la nueva homepage
 
 #### Página de inicio
 
-- Creo la tarjeta para mostrar en buble los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
+- Creo la tarjeta para mostrar en bucle los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
 - Creo la página de inicio en jorgegl-vgs-wp-theme/theme/front-page.php, con el bucle para mostrar los productos
 - Creo el menú principal "a mano" desde el editor del tema
 - Diseño del footer
@@ -83,21 +89,18 @@ _(en construcción)_
    - Creamos la carpeta para imágenes wp-content\themes\jorgegl-vgs-wp-theme\theme\images\decorative
 - Testimonios: archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
    - Creamos un script para que sea un verdadeo carrusel y los botones tengan funcionalidad
-- CTA "servicios": maquetación, misma técnica de template-parts.
-- Formulario de presupuetos: también una template-part
+- Sección de Profesionales y CERCANOS, misma técnica de template-parts.
+- Formulario de presupuestos: también una template-part
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
+- Grid de productos cambiado a un template-part
 
-## Resumen de decisiones técnicas
+## Resumen de decisiones técnicas generales
 
-- Usamos un pligon personalizado para crear los productos
-- Descripción corta de los productos: registramos un campo meta para poder efitar con HTML la descripción corta mostrada en las tarjetas de los productos del front
-- Fuentes alojadas
 - Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
 - Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
-- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente.
-Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
-- Se duplicó con exactitud el formulario de contacto, mas habría que tomar una decisión al respecto de los colores de los placeholders debido a las limitaciones del HTML en cuanto a la uniformidad de los mismos con distintos tipos de campo (input vs select)
-- En el formulario se opta por ocultar el adoprnmo de la flecha en determinados tamañlos de pantalla
+- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
+- Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
+- Se usó max-w-7x1 como ancho para todo el contenido
 
 ### Testimonios
 
@@ -109,11 +112,26 @@ Se hizo una excepción con el slider principal: al depender directamente de the_
 - En functions.php del tema, añadimos el enqueue condicionado para su carga
 - Con esto: el carrusel solo se descarga en la home (is_front_page())
 
+### Sección Profesionales y cercanos
+
+- Se usó flex flex-row: con grid, ajustando el espaciado
+- Imagen responsive sin perder la proporción del Figma: w-full max-w-[423px] aspect-[423/454] en vez de ancho/alto fijos en píxeles, que rompían el layout en mobile.
+- Franja de servicios: divide-x-2 divide-azul en vez de bordes manuales por bloque, para no gestionar a mano el borde sobrante del primer/último elemento.
+- Se aplica posicionamiento especial a la flecha en forma de espiral
+
+### Grid de productos
+
+- Usamos un plugon personalizado para crear los productos
+- Descripción corta de los productos: registramos un campo meta para poder efitar con HTML la descripción corta mostrada en las tarjetas de los productos del front
+- Con front-page.php más estructurado, se cambió a un template-part
+- Se ha usado line-clamp para la descripción del producto
+
 ### Pendiente
 
-- He decidido usar colores adicionales (verde, azul, azul-oscuro) con nombres que faciliten el trabajo de maquetación 
 - Redes sociales del footer: registrar la sección correspondiente en el Personalizador (`customize_register`, prevista en `inc/customizer.php`) con los 3 campos de
 URL.
 - Los testimonios podrían administrarse, tanto el contenido como la cantidad de los mismos
    - Desde el tema con un CPT que viva en functions.php
    - Desde un plugin
+- Revisar tema responsivo en tablet, table horizontal y escritorio pequeño
+- Se duplicó con exactitud el formulario de contacto, pero habría que tomar una decisión al respecto de los colores de los placeholders debido a las limitaciones del HTML en cuanto a la uniformidad de los mismos con distintos tipos de campo (input vs select)

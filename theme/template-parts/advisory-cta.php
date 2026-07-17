@@ -16,7 +16,7 @@
 
 	<div class="max-w-3xl mx-auto text-center relative z-10">
 
-		<h2 class="section-title mb-6 leading-snug">
+		<h2 class="section-title leading-snug">
 			<span class="text-azul font-semibold">¿Necesitas asesoramiento</span><br>
 			<span class="text-white font-bold">PERSONALIZADO</span><span class="text-azul font-semibold">?</span>
 		</h2>

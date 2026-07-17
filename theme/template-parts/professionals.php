@@ -10,7 +10,7 @@
 <section class="professionals bg-white py-16 px-4 md:px-8">
 	<div class="max-w-7xl mx-auto">
 
-<div class="flex flex-col md:flex-row items-center gap-10 mb-12">
+		<div class="flex flex-col md:flex-row items-center gap-10 mb-12">
 
 			<div>
                 <img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/pannels.png' ); ?>"
@@ -26,9 +26,9 @@
 				     loading="lazy" aria-hidden="true">
                      
 
-				<h2 class="section-title mb-6">
+				<h2 class="section-title">
 					<span class="text-azul font-medium "><?php esc_html_e( 'Profesionales y', 'jorgegl-vgs-wp-theme' ); ?></span>
-					<span class="text-verde font-semibold"><?php esc_html_e( 'CERCANOS', 'jorgegl-vgs-wp-theme' ); ?></span>
+					<span class="text-verde font-bold uppercase"><?php esc_html_e( 'cercanos', 'jorgegl-vgs-wp-theme' ); ?></span>
 				</h2>
 
 				<div class="space-y-4 text-foreground text-base/8 mb-8 md:max-w-[594px]">
