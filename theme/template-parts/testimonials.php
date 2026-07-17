@@ -39,8 +39,8 @@ $testimonios = array(
 	<div class="max-w-7xl mx-auto">
 		<div class="relative mb-10 text-center">
 			<h2 class="section-title">
-				<span class="text-azul font-medium"><?php esc_html_e( 'Reseñas de', 'jorgegl-vgs-wp-theme' ); ?></span>
-				<span class="text-verde font-semibold"><?php esc_html_e( 'CLIENTES', 'jorgegl-vgs-wp-theme' ); ?></span>
+				<span class="text-azul font-semibold"><?php esc_html_e( 'Reseñas de', 'jorgegl-vgs-wp-theme' ); ?></span>
+				<span class="text-verde font-bold"><?php esc_html_e( 'CLIENTES', 'jorgegl-vgs-wp-theme' ); ?></span>
 			</h2>
 
 			<div class="hidden md:flex gap-3 absolute right-0 top-1/2 -translate-y-1/2">

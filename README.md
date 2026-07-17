@@ -78,11 +78,13 @@ _(en construcción)_
    - Registramos menús en wp-content\themes\jorgegl-vgs-wp-theme\theme\functions.php
    - Modifcamos wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\layout\footer-content.php para mostrar menús y nuevos elementos
    - Iconos sociales en su carpeta correspondiente del tema, clases apply, alineación corerecta
-- Diseño del CTA
+- Diseño del CTA "asesoamiento personalizado"
    - Se crea el archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\advisory-cta.php y se llama desde font-ñpage.php que hará de orquestador
    - Creamos la carpeta para imágenes wp-content\themes\jorgegl-vgs-wp-theme\theme\images\decorative
 - Testimonios: archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
    - Creamos un script para que sea un verdadeo carrusel y los botones tengan funcionalidad
+- CTA "servicios": maquetación, misma técnica de template-parts.
+- Formulario de presupuetos: también una template-part
 
 ## Resumen de decisiones técnicas
 
@@ -93,6 +95,7 @@ _(en construcción)_
 - Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
 - Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente.
 Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
+- Se duplicó con exactitud el formulario de contacto, mas habría que tomar una decisión al respecto de los colores de los placeholders debido a las limitaciones del HTML en cuanto a la uniformidad de los mismos con distintos tipos de campo (input vs select)
 
 ### Testimonios
 

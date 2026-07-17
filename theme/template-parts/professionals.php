@@ -56,7 +56,7 @@
 		<div class="services-strip bg-gray-50 rounded-xl px-6 md:px-10 py-8">
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x-2 divide-azul gap-6 lg:gap-0">
 
-				<div class="flex items-center justify-center gap-4 lg:px-6 py-2 lg:py-0">
+				<div class="flex items-center justify-center gap-4 lg:px-8 py-2 lg:py-0">
 					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/services/service-store.svg' ); ?>"
 					     alt="" class="w-16 h-16 shrink-0" loading="lazy">
 					<p class="text-azul font-medium text-lg leading-tight">
@@ -80,7 +80,7 @@
 					</p>
 				</div>
 
-				<div class="flex items-center justify-center gap-4 lg:px-6 py-2 lg:py-0">
+				<div class="flex items-center justify-center gap-4 lg:px-4 py-2 lg:py-0">
 					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/services/service-construction.svg' ); ?>"
 					     alt="" class="w-16 h-16 shrink-0" loading="lazy">
 					<p class="text-azul font-medium text-lg leading-tight">

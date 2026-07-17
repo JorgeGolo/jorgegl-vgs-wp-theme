@@ -16,9 +16,9 @@
 
 	<div class="max-w-3xl mx-auto text-center relative z-10">
 
-		<h2 class="section-title font-medium mb-6 leading-snug">
-			<span class="text-azul">¿Necesitas asesoramiento</span><br>
-			<span class="text-white">PERSONALIZADO</span><span class="text-azul">?</span>
+		<h2 class="section-title mb-6 leading-snug">
+			<span class="text-azul font-semibold">¿Necesitas asesoramiento</span><br>
+			<span class="text-white font-bold">PERSONALIZADO</span><span class="text-azul font-semibold">?</span>
 		</h2>
 
 		<p class="text-azul text-sm md:text-base/8 mb-8">
