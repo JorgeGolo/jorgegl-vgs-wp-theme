@@ -16,7 +16,10 @@ $descripcion_corta = get_post_meta( get_the_ID(), '_vgs_descripcion_corta', true
 
 	<a href="<?php the_permalink(); ?>" class="block w-full max-w-[422px] aspect-[422/271] mx-auto overflow-hidden">
 		<?php
-		if ( has_post_thumbnail() ) {
+		$thumbnail_id  = get_post_thumbnail_id();
+		$thumbnail_url = $thumbnail_id ? wp_get_attachment_image_url( $thumbnail_id, 'medium' ) : false;
+
+		if ( $thumbnail_url ) {
 			the_post_thumbnail( 'medium', [ 'class' => 'w-full h-full object-cover object-center' ] );
 		} else {
 			?>

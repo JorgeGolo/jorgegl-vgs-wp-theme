@@ -10,7 +10,7 @@
  * @package jorgegl-vgs-wp-theme
  */
 
-$hero_bg_url = get_theme_mod( 'jorgegl_vgs_hero_bg_image', '' );
+$hero_bg_url = get_theme_mod( 'jorgegl_vgs_hero_bg_image', get_template_directory_uri() . '/images/decorative/hero-default.png' );
 $hero_line1    = get_theme_mod( 'jorgegl_vgs_hero_title_line1', __( 'Venta y corte a medida de', 'jorgegl-vgs-wp-theme' ) );
 $hero_line2    = get_theme_mod( 'jorgegl_vgs_hero_title_line2', __( 'PANEL SÁNDWICH', 'jorgegl-vgs-wp-theme' ) );
 $hero_btn_text = get_theme_mod( 'jorgegl_vgs_hero_button_text', __( 'Contacta con nosotros', 'jorgegl-vgs-wp-theme' ) );

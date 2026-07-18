@@ -17,7 +17,7 @@ function jorgegl_vgs_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'jorgegl_vgs_hero_bg_image',
         array(
-    		'default'           => get_template_directory_uri() . '/images/decorative/hero-default.jpg',
+    		'default'           => get_template_directory_uri() . '/images/decorative/hero-default.png',
             'sanitize_callback' => 'esc_url_raw',
         )
     );
