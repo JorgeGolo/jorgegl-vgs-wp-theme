@@ -2,11 +2,18 @@
 /**
  * Template part for displaying the header content
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * En la portada, el header se posiciona de forma absoluta sobre la imagen
+ * del hero (template-parts/hero-slider.php), fusionándose visualmente con
+ * el slider. En el resto de páginas, header normal en el flujo, sólido.
  *
- * @package _tw
+ * @package jorgegl-vgs-wp-theme
  */
 
+
+// declaramos variable
+// para el comportamiento del men´ñu cuiando no estemos en la front page
+
+$is_front = is_front_page();
 ?>
 
 <header id="masthead">
@@ -32,18 +39,31 @@
 		</div>
 	</div>
 
-	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', '_tw' ); ?>">
+	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', '_tw' ); ?>"
+		class="<?php echo $is_front ? 'absolute inset-x-0 z-20 text-white' : 'relative z-20 bg-white shadow-sm text-foreground'; ?> flex items-center justify-end h-[120px] max-w-7xl mx-auto px-4 md:px-8 font-semibold text-base">
+		
+		<button id="menu-toggle" type="button"
+	        aria-controls="primary-menu" aria-expanded="false"
+	        class="md:hidden flex items-center justify-center w-10 h-10">
+		<svg id="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="w-8 h-8">
+			<path d="M4 6h16M4 12h16M4 18h16"/>
+		</svg>
+		<svg id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="w-8 h-8 hidden">
+			<path d="M6 6l12 12M18 6L6 18"/>
+		</svg>
+		<span class="sr-only"><?php esc_html_e( 'Abrir menú', 'jorgegl-vgs-wp-theme' ); ?></span>
+	</button>
+		
 		<?php
 		wp_nav_menu(
 			array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
-				'menu_class'     => 'flex flex-col md:flex-row md:items-center gap-4 md:gap-8 list-none',
-		        'items_wrap'     => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
+				'menu_class'     => 'hidden md:flex flex-col md:flex-row gap-2 md:gap-8 list-none absolute md:relative inset-x-0 md:inset-auto top-full md:top-auto bg-azul-oscuro md:bg-transparent px-4 md:px-0 py-4 md:py-0 z-30',
+				'items_wrap'     => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
 			)
 		);
 		?>
-
 	</nav><!-- #site-navigation -->
 
 </header><!-- #masthead -->

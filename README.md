@@ -137,6 +137,11 @@ _(en construcción)_
 
 - Algunas clases se quedaron fuera de la directiva apply, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
 
+### Menú
+
+- Localización absoluta para front page, para uqe "flote" sobnre le slider
+- Menú hamburguesa para móviles
+
 ### Slider
 
 - Slider editable — soluciones evaluadas
