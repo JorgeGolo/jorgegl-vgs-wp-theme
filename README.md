@@ -36,19 +36,19 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 ## Pasos manuales tras importar el XML
 
-1. Importar las imágenes de productos. 
+1. Instalar el plugin para los CPT "Productos": (aquí el enlace del repo)
 2. Ajustes de Lectura > selecciona "Una página estática" y elegir la página de Inicio - también puede configurarse desde el tema.
-3. La asignación de menús: Asigna...
+3. La asignación de menús: desde apariencia > Menús > Gestionar ubicaciones, asigna:
+   1. Primary -> Top Menu
+   2. Footer Información General -> Menú Footer General
+   3. Footer Información Legal -> Menú Footer Legal
+4. Importar las imágenes de productos. Están en el tema, en la carpeta wp-content\themes\jorgegl-vgs-wp-theme\theme\images\products
 
 Los campos editables del tema tienen valores por defecto.
 
-## Plugin CPT
-
-- Enlace al repositorio:
-
 ## Desarrollo
 
-### Requisitos
+### Requisitos previos para el desarrollo
 
 * Herd para administrar versiones de PHP - con > PHP 8.0
 * DBngin como servidor MySQL
@@ -61,25 +61,30 @@ Los campos editables del tema tienen valores por defecto.
 * Tema de Greg Sullivan: https://github.com/gregsullivan/_tw
 * Diseño de referencia en Figma: https://www.figma.com/design/NoUtqQzkKlLvoMAohSoE5X/Prueba-PHP?node-id=0-1&t=TyadU1LOWy27Tom0-1
 
-### Desarrollo del tema
-
-#### Fuentes
+### Fuentes
 
 - Colocados los archivos de fuentes en themes/fonts, descargados de https://gwfh.mranftl.com/fonts/roboto?subsets=latin
 - Archivos modificados para instalar la fuente
 	- wp-content\themes\jorgegl-vgs-wp-theme\tailwind\tailwind-theme.css - declarar la variable del nombre de la fuente
-	- theme/tailwind/custom/fonts.css - Font-fase
+	- wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\fonts.css - Font-fase
+
+### theme.json
 
 #### Colores
 
-- He decidido usar colores adicionales (verde, azul, azul-oscuro, azul-tenue) con nombres que faciliten el trabajo de maquetación 
+- He decidido usar colores adicionales (verde, azul, azul-oscuro, azul-tenue, gris-claro) con nombres que faciliten el trabajo de maquetación 
 - Se sustituyó el color foreground por el proporcionado por Figma
-- Siguiendo la arquitectura del tema, se modificaron los siguientes archivos:
-   - wp-content\themes\jorgegl-vgs-wp-theme\theme\theme.json para establecer variables y nuevos colores
+- Siguiendo la arquitectura del tema además de wp-content\themes\jorgegl-vgs-wp-theme\theme\theme.json, se modificaron los siguientes archivos:
    - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\tailwind-theme.css para declarar dichas variables
    - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css para el css personalizado de elementos de la nueva homepage
 
-#### Página de inicio
+### Tipografía, spacing y border
+
+- Se registró la fuente Roboto para que apareciera como opción seleccionable en el editor de bloques (necesario para maquetar la alternativa del bloque Portada — ver sección Slider).
+- Se activaron `spacing.margin`, `spacing.padding` y `spacing.blockGap`, y `border.width`/`color`/`radius`/`style`, para tener control de espaciado y borde desde el propio editor sin depender de CSS a medida.
+- Aunque la solución final del slider (Personalizador + `front-page.php`) no usa el editor de bloques, estos ajustes siguen activos y son los que permiten que la alternativa de bloque Portada (`/slider-alternativa-bloques`) funcione correctamente.
+
+### Página de inicio
 
 - Creo la tarjeta para mostrar en bucle los productos que he guardado, jorgegl-vgs-wp-theme/theme/template-parts/card-producto.php
 - Creo la página de inicio en jorgegl-vgs-wp-theme/theme/front-page.php, con el bucle para mostrar los productos
@@ -98,16 +103,7 @@ Los campos editables del tema tienen valores por defecto.
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
 - Grid de productos movido a un template-part
 - Sección de tarjetas "¿Por Qué..."?
-- Slider principal: 2 soluciones comentadas más abajo. El slider ya no depende de the_content()/have_posts() (se sustituyó por lectura del Personalizador), por lo que se extrajo a template-parts/hero-slider.php como el resto de secciones
-
-## Resumen de decisiones técnicas generales
-
-- Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
-- Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
-- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
-- Se hizo una excepción con el slider principal: al depender directamente de the_content() sobre la página asignada como portada estática (Ajustes → Lectura), está acoplado al bucle principal (have_posts()) de la propia plantilla front-page.php, así que se mantiene inline en vez de fragmentarlo en un archivo aparte sin necesidad real.
-- Se usó max-w-7x1 como ancho para todo el contenido
-- Se utilizaron sub carpetas para los iconos dependiendo de la sección
+- Slider principal: 2 soluciones comentadas más abajo. El slider ya no depende de `the_content()/have_posts()` (se sustituyó por lectura del Personalizador), por lo que se extrajo a template-parts/hero-slider.php como el resto de secciones
 
 ### Testimonios
 
@@ -142,7 +138,7 @@ Los campos editables del tema tienen valores por defecto.
 
 - Algunas clases se quedaron fuera de la directiva apply, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
 
-### Menú
+### Menú principal
 
 - Localización absoluta para front page, para uqe "flote" sobnre le slider
 - Menú hamburguesa para móviles
@@ -150,12 +146,20 @@ Los campos editables del tema tienen valores por defecto.
 ### Slider
 
 - Slider editable — soluciones evaluadas
-   1. Bloque Portada (Gutenberg nativo) — ver página de demostración en /slider-alternativa-bloques. Ventaja: 100% nativo, sin código a medida. Limitación: el ajuste fino a Figma requirió recurrir al campo "CSS Adicional" de WordPress 7.0 en varios puntos.
-   2. Personalizador + front-page.php (la implementada) — imagen, textos y enlace del botón editables desde Apariencia → Personalizar → Slider. Ventaja: el HTML vive en el tema con clases Tailwind reales, sin límites de compilación, más "unido" al propio tema. Limitación: solo el contenido de los campos expuestos son editables, no es contenido libre como el editor de bloques, ni se puede editar el estilo con Wordpress
+   1. Bloque Portada (Gutenberg nativo) — ver página "Inicio". Ventaja: 100% nativo, sin código a medida. Limitación: el ajuste fino a Figma requirió recurrir al campo "CSS Adicional" de WordPress 7.0 en varios puntos. Puede dar problemas en la importación y puede ser de difícil edición.
+   2. Personalizador + front-page.php (la implementada) — imagen, textos y enlace del botón editables desde Apariencia → Personalizar → Slider. Ventaja: el HTML vive en el tema con clases Tailwind reales, sin límites de compilación, más "unido" al propio tema. Limitación: solo el contenido de los campos expuestos son editables, no es contenido libre como el editor de bloques, ni se puede editar el estilo con Wordpress.
    3. Solución ideal: desarrollar un bloque de Gutenberg personalizado para el tema. Permitiría extender la funcionalidad a varios slides con transición entre ellos, cosa que ninguna de las dos soluciones actuales contempla.
 - Finalmente, se movió a un template-part
 
-### Tema responsive, ajustes adicionales
+## Resumen de decisiones técnicas generales
+
+- Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
+- Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
+- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
+- Se usó max-w-7x1 como ancho para todo el contenido
+- Se utilizaron sub carpetas para los iconos dependiendo de la sección
+
+## Tema responsive, ajustes adicionales
 
 - Alineación de tarjetas a la izquierda en la sección "Profesionales y cercanos"
 - Varios breackpoints para márgenes en comportamiento en móviles desde lg y md
