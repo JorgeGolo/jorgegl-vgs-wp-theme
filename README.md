@@ -16,35 +16,42 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
    npm install
 ```
 
-4. Compila los estilos (Tailwind) y JS una sola vez:
-```bash
-   npm run dev
-```
-   O, en modo desarrollo con recompilación automática al guardar cambios:
-```bash
-   npm run watch
-```
+4. Desde el admin de WordPress, ve a **Apariencia > Temas** y activa `jorgegl-vgs-wp-theme`.
 
-5. Desde el admin de WordPress, ve a **Apariencia > Temas** y activa `jorgegl-vgs-wp-theme`.
-
-6. Antes de una entrega/despliegue final, genera la versión de producción minificada:
+5. Antes de una entrega/despliegue final, genera la versión de producción minificada:
 ```bash
    npm run prod
 ```
 
 > ⚠️ Importante: el repositorio no incluye los archivos compilados (`style.css`, `*.min.js`) ni `node_modules`, siguiendo el `.gitignore` oficial del starter theme. Es imprescindible correr `npm install` + `npm run dev` (o `watch`) tras clonar para ver el tema con estilos.
 
+## Instala el plugin de CPT "productos"
+
+- Clona el repositorio: https://github.com/JorgeGolo/xxx en wp-content\plugins
+- Activa el plugin
+
+## Importa el archivo demo XML
+
+- Unicado en wp-content\themes\jorgegl-vgs-wp-theme\demo-content
+
 ## Pasos manuales tras importar el XML
 
-1. Instalar el plugin para los CPT "Productos": (aquí el enlace del repo)
-2. Ajustes de Lectura > selecciona "Una página estática" y elegir la página de Inicio - también puede configurarse desde el tema.
-3. La asignación de menús: desde apariencia > Menús > Gestionar ubicaciones, asigna:
+1. Ajustes de Lectura > selecciona "Una página estática" y elegir una - he dejado una página vacía llamada "Inicio" - también puede configurarse desde el tema.
+2. La asignación de menús: desde apariencia > Menús > Gestionar ubicaciones, asigna:
    1. Primary -> Top Menu
    2. Footer Información General -> Menú Footer General
    3. Footer Información Legal -> Menú Footer Legal
-4. Importar las imágenes de productos. Están en el tema, en la carpeta wp-content\themes\jorgegl-vgs-wp-theme\theme\images\products
+3. Importar las imágenes de productos desde la interfaz del plugin. Están en el tema, en la carpeta wp-content\themes\jorgegl-vgs-wp-theme\theme\images\products
 
 Los campos editables del tema tienen valores por defecto.
+
+## Desarrollo local (para quien continúe trabajando sobre el tema)
+
+Si vas a modificar el código, en vez de `npm run prod` en cada cambio, usa modo desarrollo con recompilación automática al guardar:
+```bash
+npm run dev    # compila una vez, sin minificar
+npm run watch  # recompila automáticamente en cada guardado
+```
 
 ## Desarrollo
 
@@ -97,7 +104,7 @@ Los campos editables del tema tienen valores por defecto.
    - Se crea el archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\advisory-cta.php y se llama desde font-ñpage.php que hará de orquestador
    - Creamos la carpeta para imágenes wp-content\themes\jorgegl-vgs-wp-theme\theme\images\decorative
 - Testimonios: archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
-   - Creamos un script para que sea un verdadeo carrusel y los botones tengan funcionalidad
+   - Creamos un script para que sea un verdadero carrusel y los botones tengan funcionalidad
 - Sección de Profesionales y CERCANOS, misma técnica de template-parts.
 - Formulario de presupuestos: también una template-part
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
@@ -112,8 +119,8 @@ Los campos editables del tema tienen valores por defecto.
 - El script del carrusel de testimonials en principio vivia en un tag script dentro del archivo wp-content\themes\jorgegl-vgs-wp-theme\theme\template-parts\testimonials.php
 - Sacamos el script a un archivo wp-content\themes\jorgegl-vgs-wp-theme\javascript\testimonials-carousel.js
 - Añadimos ./javascript/testimonials-carousel.js a la línea de development:esbuild del package.json, para uqe se genere el archivo theme/js/testimonials-carousel.min.js cuando se compile el tema
-- En functions.php del tema, añadimos el enqueue condicionado para su carga
-- Con esto: el carrusel solo se descarga en la home (is_front_page())
+- En functions.php del tema, añadimos el `enqueue` condicionado para su carga
+- Con esto: el carrusel solo se descarga en la home `(is_front_page())`
 - El contenido podría administrarse desde el escritorio de WP
    - Desde el tema con un CPT que viva en functions.php
    - Desde un plugin
@@ -136,11 +143,11 @@ Los campos editables del tema tienen valores por defecto.
 
 ### Sección ¿Por qué nuestro panel sándwich?
 
-- Algunas clases se quedaron fuera de la directiva apply, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
+- Algunas clases se quedaron fuera de las directivas `@apply`, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
 
 ### Menú principal
 
-- Localización absoluta para front page, para uqe "flote" sobnre le slider
+- Localización absoluta para front page, para que "flote" sobre le slider
 - Menú hamburguesa para móviles
 
 ### Slider
@@ -154,14 +161,14 @@ Los campos editables del tema tienen valores por defecto.
 ## Resumen de decisiones técnicas generales
 
 - Los colores verde y azul del tema están en los archivos de tailwind correspondientes proporcionados por el tema
-- Usar la directiva @apply para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
-- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca get_template_part() en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
+- Usar la directiva `@apply` para varios estilos, por ejemplo, el último enlace del menú principal - wp-content\themes\jorgegl-vgs-wp-theme\tailwind\custom\components\components.css
+- Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca `get_template_part()` en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
 - Se usó max-w-7x1 como ancho para todo el contenido
 - Se utilizaron sub carpetas para los iconos dependiendo de la sección
 
 ## Tema responsive, ajustes adicionales
 
 - Alineación de tarjetas a la izquierda en la sección "Profesionales y cercanos"
-- Varios breackpoints para márgenes en comportamiento en móviles desde lg y md
+- Varios breackpoints para márgenes en comportamiento en pantallas grandes desde lg y md
 - Ajuste de tamaño de fuente de slider, más pequeña para móviles
-- Ajuste de alto de imagen del slider
+- Ajuste de alto de imagen del slider en móviles
