@@ -8,7 +8,7 @@
  */
 ?>
 <!-- --- Bucle personalizado: últimos 6 Productos --- -->
-	<section class="productos-destacados pt-12 py-16 px-4 md:px-8 bg-[#F5F8F9]">
+	<section class="productos-destacados pt-12 pt-16 pb-16 md:pb-24 px-4 md:px-8 bg-[#F5F8F9]">
 
     	<div class="max-w-7xl mx-auto text-center">
 

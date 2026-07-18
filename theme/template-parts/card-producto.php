@@ -14,10 +14,15 @@ $descripcion_corta = get_post_meta( get_the_ID(), '_vgs_descripcion_corta', true
 
 <article <?php post_class( 'producto-card bg-white flex flex-col' ); ?>>
 
-	<a href="<?php the_permalink(); ?>" class="block w-full aspect-[423/272] overflow-hidden ">
+	<a href="<?php the_permalink(); ?>" class="block w-full max-w-[422px] aspect-[422/271] mx-auto overflow-hidden">
 		<?php
 		if ( has_post_thumbnail() ) {
-			the_post_thumbnail( 'medium', [ 'class' => 'w-full h-full object-cover' ] );
+			the_post_thumbnail( 'medium', [ 'class' => 'w-full h-full object-cover object-center' ] );
+		} else {
+			?>
+			<img src="<?php echo esc_url( get_template_directory_uri() . '/images/products/placeholder-producto.jpg' ); ?>"
+				alt="" class="w-full h-full object-cover" loading="lazy">
+			<?php
 		}
 		?>
 	</a>

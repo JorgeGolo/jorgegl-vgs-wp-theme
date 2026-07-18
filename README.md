@@ -34,6 +34,14 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 > ⚠️ Importante: el repositorio no incluye los archivos compilados (`style.css`, `*.min.js`) ni `node_modules`, siguiendo el `.gitignore` oficial del starter theme. Es imprescindible correr `npm install` + `npm run dev` (o `watch`) tras clonar para ver el tema con estilos.
 
+## Pasos manuales tras importar el XML
+
+1. Importar las imágenes de productos. 
+2. Ajustes de Lectura > selecciona "Una página estática" y elegir la página de Inicio - también puede configurarse desde el tema.
+3. La asignación de menús: Asigna...
+
+Los campos editables del tema tienen valores por defecto.
+
 ## Plugin CPT
 
 - Enlace al repositorio:
@@ -128,6 +136,7 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 - Con front-page.php más estructurado, se cambió a un template-part
 - Se ha usado line-clamp para la descripción del producto
 - Se añadió soporte para ordenar los productos por un campo numérico desde el plugin CPT
+- Se ha añadido un placeholder para las imágenes de producto
 
 ### Sección ¿Por qué nuestro panel sándwich?
 
