@@ -204,3 +204,9 @@ Testimonios
 .service-item-text {
 	@apply text-azul text-lg leading-tight font-medium;
 }
+
+/* Slider */
+
+.hero-subtitle {
+	@apply -mt-4;
+}

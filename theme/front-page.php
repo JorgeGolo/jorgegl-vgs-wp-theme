@@ -19,26 +19,13 @@ get_header();
 
 <main id="main-content">
 
-	<?php
-	// --- Slider principal editable ---
-	// Contenido gestionado desde el editor de bloques de la página
-	// asignada como portada estática en Ajustes > Lectura.
-	if ( have_posts() ) :
-		while ( have_posts() ) :
-			the_post();
-			?>
-			<section class="hero-slider">
-				<?php the_content(); ?>
-			</section>
-			<?php
-		endwhile;
-		wp_reset_postdata();
-	endif;
-	?>
+
 
 </main>
 
 <?php
+
+get_template_part( 'template-parts/hero-slider' );
 
 get_template_part( 'template-parts/why-us' );
 

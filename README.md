@@ -92,8 +92,9 @@ _(en construcción)_
 - Sección de Profesionales y CERCANOS, misma técnica de template-parts.
 - Formulario de presupuestos: también una template-part
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
-- Grid de productos cambiado a un template-part
+- Grid de productos movido a un template-part
 - Sección de tarjetas "¿Por Qué..."?
+- Slider principal: 2 soluciones comentadas más abajo. El slider ya no depende de the_content()/have_posts() (se sustituyó por lectura del Personalizador), por lo que se extrajo a template-parts/hero-slider.php como el resto de seccione
 
 ## Resumen de decisiones técnicas generales
 
@@ -113,6 +114,9 @@ _(en construcción)_
 - Añadimos ./javascript/testimonials-carousel.js a la línea de development:esbuild del package.json, para uqe se genere el archivo theme/js/testimonials-carousel.min.js cuando se compile el tema
 - En functions.php del tema, añadimos el enqueue condicionado para su carga
 - Con esto: el carrusel solo se descarga en la home (is_front_page())
+- El contenido podría administrarse desde el escritorio de WP
+   - Desde el tema con un CPT que viva en functions.php
+   - Desde un plugin
 
 ### Sección Profesionales y cercanos
 
@@ -133,12 +137,15 @@ _(en construcción)_
 
 - Algunas clases se quedaron fuera de la directiva apply, ya que la última tarjeta tenía márgenes distintos para ajustar el texto
 
+### Slider
+
+- Slider editable — soluciones evaluadas
+   1. Bloque Portada (Gutenberg nativo) — ver página de demostración en /slider-alternativa-bloques. Ventaja: 100% nativo, sin código a medida. Limitación: el ajuste fino a Figma requirió recurrir al campo "CSS Adicional" de WordPress 7.0 en varios puntos.
+   2. Personalizador + front-page.php (la implementada) — imagen, textos y enlace del botón editables desde Apariencia → Personalizar → Slider. Ventaja: el HTML vive en el tema con clases Tailwind reales, sin límites de compilación, más "unido" al propio tema. Limitación: solo el contenido de los campos expuestos son editables, no es contenido libre como el editor de bloques, ni se puede editar el estilo con Wordpress
+   3. Solución ideal: desarrollar un bloque de Gutenberg personalizado para el tema. Permitiría extender la funcionalidad a varios slides con transición entre ellos, cosa que ninguna de las dos soluciones actuales contempla.
+- Finalmente, se movió a un template-part
+
 ### Pendiente
 
-- Redes sociales del footer: registrar la sección correspondiente en el Personalizador (`customize_register`, prevista en `inc/customizer.php`) con los 3 campos de
-URL.
-- Los testimonios podrían administrarse, tanto el contenido como la cantidad de los mismos
-   - Desde el tema con un CPT que viva en functions.php
-   - Desde un plugin
+
 - Revisar tema responsivo en tablet, table horizontal y escritorio pequeño
-- Se duplicó con exactitud el formulario de contacto, pero habría que tomar una decisión al respecto de los colores de los placeholders debido a las limitaciones del HTML en cuanto a la uniformidad de los mismos con distintos tipos de campo (input vs select)

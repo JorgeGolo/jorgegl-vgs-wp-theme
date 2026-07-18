@@ -83,29 +83,42 @@
 			endif;
 			?>
 
-
 			<div class="social-icons flex gap-2 justify-start mt-4">
-			
-			<a href="#" target="_blank" rel="noopener noreferrer"
-				aria-label="Facebook"
-				class="social-icon">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/fb-icon.svg' ); ?>"
-						alt="" class="w-4 h-4" loading="lazy">
-				</a>
 
-				<a href="#" target="_blank" rel="noopener noreferrer"
-				aria-label="X (Twitter)"
-				class="social-icon">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/x-icon.svg' ); ?>"
-						alt="" class="w-4 h-4" loading="lazy">
-				</a>
+				<?php
+				$fb = get_theme_mod( 'jorgegl_vgs_social_facebook' );
+				if ( $fb ) :
+					?>
+					<a href="<?php echo esc_url( $fb ); ?>" target="_blank" rel="noopener noreferrer"
+					aria-label="Facebook" class="social-icon">
+						<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/fb-icon.svg' ); ?>"
+							alt="" class="w-4 h-4" loading="lazy">
+					</a>
+					<?php
+				endif;
 
-				<a href="#" target="_blank" rel="noopener noreferrer"
-				aria-label="Instagram"
-				class="social-icon">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/ig-icon.svg' ); ?>"
-						alt="" class="w-4 h-4" loading="lazy">
-				</a>
+				$tw = get_theme_mod( 'jorgegl_vgs_social_twitter' );
+				if ( $tw ) :
+					?>
+					<a href="<?php echo esc_url( $tw ); ?>" target="_blank" rel="noopener noreferrer"
+					aria-label="X (Twitter)" class="social-icon">
+						<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/x-icon.svg' ); ?>"
+							alt="" class="w-4 h-4" loading="lazy">
+					</a>
+					<?php
+				endif;
+
+				$ig = get_theme_mod( 'jorgegl_vgs_social_instagram' );
+				if ( $ig ) :
+					?>
+					<a href="<?php echo esc_url( $ig ); ?>" target="_blank" rel="noopener noreferrer"
+					aria-label="Instagram" class="social-icon">
+						<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/social/ig-icon.svg' ); ?>"
+							alt="" class="w-4 h-4" loading="lazy">
+					</a>
+					<?php
+				endif;
+				?>
 
 			</div>
 

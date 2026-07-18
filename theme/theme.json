@@ -56,6 +56,26 @@
 				}
 			]
 		},
+		"typography": {
+			"fontFamilies": [
+				{ 
+					"slug": "roboto", 
+					"fontFamily": "\"Roboto\", ui-sans-serif, system-ui, sans-serif", 
+					"name": "Roboto" 
+				}
+			]
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		},
+		"border": {
+			"width": true,
+			"color": true,
+			"radius": true,
+			"style": true
+		},
 		"layout": {
 			"contentSize": "40rem",
 			"wideSize": "60rem"
