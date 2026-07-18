@@ -53,10 +53,6 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 * Tema de Greg Sullivan: https://github.com/gregsullivan/_tw
 * Diseño de referencia en Figma: https://www.figma.com/design/NoUtqQzkKlLvoMAohSoE5X/Prueba-PHP?node-id=0-1&t=TyadU1LOWy27Tom0-1
 
-_(en construcción)_
-
-- [ ] Slider principal editable
-
 ### Desarrollo del tema
 
 #### Fuentes
@@ -94,7 +90,7 @@ _(en construcción)_
    - NOTA: uno de los checkboxes. el de la privacidad, está marcado por defecto, revisar si es aceptable
 - Grid de productos movido a un template-part
 - Sección de tarjetas "¿Por Qué..."?
-- Slider principal: 2 soluciones comentadas más abajo. El slider ya no depende de the_content()/have_posts() (se sustituyó por lectura del Personalizador), por lo que se extrajo a template-parts/hero-slider.php como el resto de seccione
+- Slider principal: 2 soluciones comentadas más abajo. El slider ya no depende de the_content()/have_posts() (se sustituyó por lectura del Personalizador), por lo que se extrajo a template-parts/hero-slider.php como el resto de secciones
 
 ## Resumen de decisiones técnicas generales
 
@@ -150,7 +146,9 @@ _(en construcción)_
    3. Solución ideal: desarrollar un bloque de Gutenberg personalizado para el tema. Permitiría extender la funcionalidad a varios slides con transición entre ellos, cosa que ninguna de las dos soluciones actuales contempla.
 - Finalmente, se movió a un template-part
 
-### Pendiente
+### Tema responsive, ajustes adicionales
 
-
-- Revisar tema responsivo en tablet, table horizontal y escritorio pequeño
+- Alineación de tarjetas a la izquierda en la sección "Profesionales y cercanos"
+- Varios breackpoints para márgenes en comportamiento en móviles desde lg y md
+- Ajuste de tamaño de fuente de slider, más pequeña para móviles
+- Ajuste de alto de imagen del slider

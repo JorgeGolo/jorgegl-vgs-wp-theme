@@ -7,7 +7,7 @@
  * @package jorgegl-vgs-wp-theme
  */
 ?>
-<section class="advisory-cta relative bg-verde pt-16 pb-20 px-4 md:px-8 overflow-hidden">
+<section class="advisory-cta relative bg-verde pt-16 pb-16 md:pb-20 px-4 md:px-8 overflow-hidden">
 
 <img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/arrow-white.svg' ); ?>"
      alt=""

@@ -53,8 +53,8 @@
 
 		</div>
 
-		<div class="services-strip bg-gris-claro rounded-xl px-6 md:px-10 py-8">
-			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x-2 divide-azul gap-6 lg:gap-0">
+		<div class="services-strip bg-gris-claro rounded-xl px-6 md:px-10 py-4 lg:py-8">
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x-2 divide-azul gap-2 lg:gap-0">
 
 				<div class="service-item lg:px-8">
 					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/services/service-store.svg' ); ?>"

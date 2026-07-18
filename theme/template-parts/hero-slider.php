@@ -16,7 +16,7 @@ $hero_line2    = get_theme_mod( 'jorgegl_vgs_hero_title_line2', __( 'PANEL SÁND
 $hero_btn_text = get_theme_mod( 'jorgegl_vgs_hero_button_text', __( 'Contacta con nosotros', 'jorgegl-vgs-wp-theme' ) );
 $hero_btn_url  = get_theme_mod( 'jorgegl_vgs_hero_button_url', '/contacto' );
 ?>
-<section class="hero-slider relative min-h-[697px] flex flex-col items-center justify-center bg-cover bg-center mb-8"
+<section class="hero-slider relative min-h-[507px] md:min-h-[697px] flex flex-col items-center justify-center bg-cover bg-center lg:mb-8"
          style="background-image: linear-gradient(180deg, rgba(26,40,98,0.7) 17.67%, rgba(53,82,200,0.7) 100%)<?php echo $hero_bg_url ? ", url('" . esc_url( $hero_bg_url ) . "')" : ''; ?>;
 		 background-size: cover; 
 		 background-position: center 20%; 
@@ -26,15 +26,15 @@ $hero_btn_url  = get_theme_mod( 'jorgegl_vgs_hero_button_url', '/contacto' );
 
 	<div>
 		<h1 class="text-center relative z-10 mt-[45px] -tracking-[1px]">
-			<span class="block text-[48px] leading-[52px] font-medium text-white">
+			<span class="block text-[32px] md:text-[48px] leading-[52px] font-medium text-white">
 					<?php echo esc_html( $hero_line1 ); ?>
 			</span>
-			<span class="text-[64px] block section-title font-bold text-verde mb-1">
+			<span class=" text-[42px] md:text-[64px] block section-title font-bold text-verde mb-1">
 				<?php echo esc_html( $hero_line2 ); ?>
 			</span>
 		</h1>
 		<img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/white-brush.svg' ); ?>"
-				alt="" class="w-[290px] ml-auto" loading="lazy" aria-hidden="true">
+				alt="" class="w-[200px] md:w-[290px] ml-auto" loading="lazy" aria-hidden="true">
 	</div>
 	<div class="flex-1 flex items-center justify-center">
 		<a href="<?php echo esc_url( $hero_btn_url ); ?>"
