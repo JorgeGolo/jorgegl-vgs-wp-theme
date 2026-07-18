@@ -19,24 +19,24 @@ get_header();
 
 <main id="main-content">
 
+	<?php
 
+	get_template_part( 'template-parts/hero-slider' );
+
+	get_template_part( 'template-parts/why-us' );
+
+	get_template_part( 'template-parts/products' );
+
+	get_template_part( 'template-parts/budget-form' );
+
+	get_template_part( 'template-parts/professionals' );
+
+	get_template_part( 'template-parts/testimonials' );
+
+	get_template_part( 'template-parts/advisory-cta' );
+
+	get_footer();
+
+	?>
 
 </main>
-
-<?php
-
-get_template_part( 'template-parts/hero-slider' );
-
-get_template_part( 'template-parts/why-us' );
-
-get_template_part( 'template-parts/products' );
-
-get_template_part( 'template-parts/budget-form' );
-
-get_template_part( 'template-parts/professionals' );
-
-get_template_part( 'template-parts/testimonials' );
-
-get_template_part( 'template-parts/advisory-cta' );
-
-get_footer();
