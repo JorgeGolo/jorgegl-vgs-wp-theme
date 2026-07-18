@@ -17,7 +17,7 @@
                 <span class="text-verde font-bold uppercase"><?php esc_html_e( 'panel sándwich', 'jorgegl-vgs-wp-theme' ); ?></span><span class="text-azul font-medium">?</span>
             </h2>
             <img src="<?php echo esc_url( get_template_directory_uri() . '/images/decorative/blue-brush.svg' ); ?>" 
-                 alt="" class="w-56 md:w-[285px] mt-2 select-none relative left-36" loading="lazy">
+                 alt="" class="w-56 md:w-[285px] mt-2 select-none relative md:left-36" loading="lazy">
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 text-left">

@@ -20,20 +20,18 @@ $is_front = is_front_page();
 
 	<!-- Barra superior de contacto -->
 	<div class='bg-verde'>
-		<div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-2 text-sm">
+		<div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-2 text-sm h-[70px]">
  
-			<a href="mailto:info@tudominio.es" class="flex items-center gap-2 hover:opacity-80 transition">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-				</svg>
+			<a href="mailto:info@tudominio.es" class="flex items-center gap-2 hover:opacity-80 transition text-white text-[15px] font-medium">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/header/email.svg' ); ?>"
+					alt="" class="w-[18px] h-[18px] shrink-0" loading="lazy">
 				<span>dominio@dominio.es</span>
 			</a>
  
-			<a href="tel:+34000000000" class="flex items-center gap-2 bg-white text-lime-600 rounded-full px-4 py-1 font-semibold hover:opacity-90 transition">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.98.804l1.11 5.11a1 1 0 01-.53 1.11l-1.6.8a11.05 11.05 0 005.4 5.4l.8-1.6a1 1 0 011.11-.53l5.11 1.11a1 1 0 01.804.98V19a2 2 0 01-2 2h-1C9.16 21 3 14.84 3 7V5z" />
-				</svg>
-				<span>123 456 789</span>
+			<a href="tel:+34123456789" class="flex items-center gap-2 bg-white text-azul rounded-full h-[45px] px-4 font-bold hover:opacity-90 transition">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/icons/header/phone.svg' ); ?>"
+					alt="" class="w-[18px] h-[18px] shrink-0" loading="lazy">
+				<span class="text-[14px]">123 456 789</span>
 			</a>
  
 		</div>
