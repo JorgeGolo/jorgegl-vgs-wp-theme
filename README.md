@@ -4,7 +4,10 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 ## Instalación y compilación
 
-1. Clona este repositorio dentro de `wp-content/themes/` de una instalación de WordPress existente (WordPress 8.x, descarga desde [aquí](https://es.wordpress.org/download/) si partes de cero).
+1. Clona este repositorio dentro de `wp-content/themes/` de una instalación de WordPress existente (WordPress 8.x, descarga Wordpress desde [aquí](https://es.wordpress.org/download/)).
+```bash
+   git clone https://github.com/JorgeGolo/jorgegl-vgs-wp-theme tw
+```
 
 2. Entra en la carpeta del tema:
 ```bash
@@ -16,36 +19,41 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
    npm install
 ```
 
-4. Desde el admin de WordPress, ve a **Apariencia > Temas** y activa `jorgegl-vgs-wp-theme`.
-
-5. Antes de una entrega/despliegue final, genera la versión de producción minificada:
+4. Genera la versión de producción minificada:
 ```bash
    npm run prod
 ```
+
+5. Desde el admin de WordPress, ve a **Apariencia > Temas** y activa `jorgegl-vgs-wp-theme`.
 
 > ⚠️ Importante: el repositorio no incluye los archivos compilados (`style.css`, `*.min.js`) ni `node_modules`, siguiendo el `.gitignore` oficial del starter theme. Es imprescindible correr `npm install` + `npm run dev` (o `watch`) tras clonar para ver el tema con estilos.
 
 ## Instala el plugin de CPT "productos"
 
-- Clona el repositorio: https://github.com/JorgeGolo/xxx en wp-content\plugins
+- Clona el repositorio del plugin: https://github.com/JorgeGolo/prueba-vgs-wp-plugin en wp-content\plugins
+```bash
+   git clone https://github.com/JorgeGolo/prueba-vgs-wp-plugin vgs-productos
+```
+
 - Activa el plugin
 
 ## Importa el archivo demo XML
 
-- Unicado en wp-content\themes\jorgegl-vgs-wp-theme\demo-content
+- Desde el importador de Wordpress, importa el archivo XML ubicado en wp-content\themes\jorgegl-vgs-wp-theme\demo-content
+- Los avisos del importador son debidos a que el sitio de desarollo no está online y no se pueden importar las imágenes. Puedes ignorarlos.
 
 ## Pasos manuales tras importar el XML
 
 1. Ajustes de Lectura > selecciona "Una página estática" y elegir una - he dejado una página vacía llamada "Inicio" - también puede configurarse desde el tema.
-2. La asignación de menús: desde apariencia > Menús > Gestionar ubicaciones, asigna:
+2. Asignación de menús: desde apariencia > Menús > Gestionar ubicaciones (o desde el tema), asigna:
    1. Primary -> Top Menu
    2. Footer Información General -> Menú Footer General
    3. Footer Información Legal -> Menú Footer Legal
-3. Importar las imágenes de productos desde la interfaz del plugin. Están en el tema, en la carpeta wp-content\themes\jorgegl-vgs-wp-theme\theme\images\products
+3. Importar las imágenes de productos desde la interfaz del plugin. Las imágenes de los productos de prueba están en el tema, en la carpeta wp-content\themes\jorgegl-vgs-wp-theme\theme\images\products
 
 Los campos editables del tema tienen valores por defecto.
 
-## Desarrollo local (para quien continúe trabajando sobre el tema)
+## Desarrollo local (para continuar trabajando sobre el tema)
 
 Si vas a modificar el código, en vez de `npm run prod` en cada cambio, usa modo desarrollo con recompilación automática al guardar:
 ```bash

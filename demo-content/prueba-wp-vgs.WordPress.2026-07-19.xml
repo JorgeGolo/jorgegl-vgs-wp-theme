@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.1" created="2026-07-18 16:21" -->
+	<!-- generator="WordPress/7.0.1" created="2026-07-19 08:28" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>prueba-wp-vgs</title>
 	<link>http://prueba-wp-vgs.test</link>
 	<description></description>
-	<pubDate>Sat, 18 Jul 2026 16:21:28 +0000</pubDate>
+	<pubDate>Sun, 19 Jul 2026 08:28:12 +0000</pubDate>
 	<language>es</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://prueba-wp-vgs.test</wp:base_site_url>
@@ -800,520 +800,6 @@
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://prueba-wp-vgs.test/?p=55</link>
-		<pubDate></pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?p=55</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>55</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:08:56]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:08:56]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1784225336]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[image]]></title>
-		<link>http://prueba-wp-vgs.test/inicio/image/</link>
-		<pubDate>Fri, 17 Jul 2026 16:36:34 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/wp-content/uploads/2026/07/image.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>69</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-17 18:36:34]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-17 16:36:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 18:36:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 16:36:34]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[image]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>25</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://prueba-wp-vgs.test/wp-content/uploads/2026/07/image.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/image.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1600;s:6:"height";i:697;s:4:"file";s:17:"2026/07/image.jpg";s:8:"filesize";i:409271;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:17:"image-300x131.jpg";s:5:"width";i:300;s:6:"height";i:131;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5719;}s:5:"large";a:5:{s:4:"file";s:18:"image-1024x446.jpg";s:5:"width";i:1024;s:6:"height";i:446;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:34603;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"image-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3456;}s:12:"medium_large";a:5:{s:4:"file";s:17:"image-768x335.jpg";s:5:"width";i:768;s:6:"height";i:335;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:22197;}s:9:"1536x1536";a:5:{s:4:"file";s:18:"image-1536x669.jpg";s:5:"width";i:1536;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:64882;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[image]]></title>
-		<link>http://prueba-wp-vgs.test/inicio/image-2/</link>
-		<pubDate>Fri, 17 Jul 2026 16:37:39 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/wp-content/uploads/2026/07/image-1.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>70</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-17 18:37:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-17 16:37:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 18:37:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 16:37:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[image-2]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>25</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://prueba-wp-vgs.test/wp-content/uploads/2026/07/image-1.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/image-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1600;s:6:"height";i:697;s:4:"file";s:19:"2026/07/image-1.jpg";s:8:"filesize";i:409271;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:19:"image-1-300x131.jpg";s:5:"width";i:300;s:6:"height";i:131;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5719;}s:5:"large";a:5:{s:4:"file";s:20:"image-1-1024x446.jpg";s:5:"width";i:1024;s:6:"height";i:446;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:34603;}s:9:"thumbnail";a:5:{s:4:"file";s:19:"image-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:3456;}s:12:"medium_large";a:5:{s:4:"file";s:19:"image-1-768x335.jpg";s:5:"width";i:768;s:6:"height";i:335;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:22197;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"image-1-1536x669.jpg";s:5:"width";i:1536;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:64882;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[660cf612b809f3da1a63a2771ad29593ea754b1c]]></title>
-		<link>http://prueba-wp-vgs.test/inicio/660cf612b809f3da1a63a2771ad29593ea754b1c/</link>
-		<pubDate>Fri, 17 Jul 2026 16:42:25 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>71</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-17 18:42:25]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-17 16:42:25]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 18:42:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 16:42:25]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[660cf612b809f3da1a63a2771ad29593ea754b1c]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>25</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1200;s:6:"height";i:865;s:4:"file";s:52:"2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png";s:8:"filesize";i:1448568;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:52:"660cf612b809f3da1a63a2771ad29593ea754b1c-300x216.png";s:5:"width";i:300;s:6:"height";i:216;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:124052;}s:5:"large";a:5:{s:4:"file";s:53:"660cf612b809f3da1a63a2771ad29593ea754b1c-1024x738.png";s:5:"width";i:1024;s:6:"height";i:738;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1090610;}s:9:"thumbnail";a:5:{s:4:"file";s:52:"660cf612b809f3da1a63a2771ad29593ea754b1c-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:45042;}s:12:"medium_large";a:5:{s:4:"file";s:52:"660cf612b809f3da1a63a2771ad29593ea754b1c-768x554.png";s:5:"width";i:768;s:6:"height";i:554;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:661879;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[white-brush]]></title>
-		<link>http://prueba-wp-vgs.test/inicio/white-brush/</link>
-		<pubDate>Fri, 17 Jul 2026 17:30:34 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/wp-content/uploads/2026/07/white-brush.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>80</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-17 19:30:34]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-17 17:30:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 19:30:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 17:30:34]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[white-brush]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>25</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://prueba-wp-vgs.test/wp-content/uploads/2026/07/white-brush.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/white-brush.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:270;s:6:"height";i:25;s:4:"file";s:23:"2026/07/white-brush.png";s:8:"filesize";i:1368;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:22:"white-brush-150x25.png";s:5:"width";i:150;s:6:"height";i:25;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:845;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Página de ejemplo]]></title>
-		<link>http://prueba-wp-vgs.test/pagina-ejemplo/</link>
-		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Esta es una página de ejemplo. Es diferente a una entrada del blog porque permanecerá en un solo lugar y aparecerá en la navegación de tu sitio (en la mayoría de los temas). La mayoría de las personas comienzan con una página «Acerca de» que les presenta a los visitantes potenciales del sitio. Podrías decir algo así:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote">
-<!-- wp:paragraph -->
-<p>¡Hola! Soy camarero de día, aspirante a actor de noche y esta es mi web. Vivo en Mairena del Alcor, tengo un perro que se llama Firulais y me gusta el rebujito. (Y las tardes largas con café).</p>
-<!-- /wp:paragraph -->
-</blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p>…o algo así:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote">
-<!-- wp:paragraph -->
-<p>La empresa «Mariscos Recio» fue fundada por Antonio Recio Mata. Empezó siendo una pequeña empresa que suministraba marisco a hoteles y restaurantes, pero poco a poco se ha ido transformando en un gran imperio. Mariscos Recio, el mar al mejor precio.</p>
-<!-- /wp:paragraph -->
-</blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p>Como nuevo usuario de WordPress, deberías ir a <a href="http://prueba-wp-vgs.test/wp-admin/">tu escritorio</a> para borrar esta página y crear nuevas páginas para tu contenido. ¡Pásalo bien!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[pagina-ejemplo]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Política de privacidad]]></title>
-		<link>http://prueba-wp-vgs.test/?page_id=3</link>
-		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=3</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading -->
-<h2 class="wp-block-heading">Quiénes somos</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>La dirección de nuestra web es: http://prueba-wp-vgs.test.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Comentarios</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Cuando los visitantes dejan comentarios en la web, recopilamos los datos que se muestran en el formulario de comentarios, así como la dirección IP del visitante y la cadena de agentes de usuario del navegador para ayudar a la detección de spam.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Una cadena anónima creada a partir de tu dirección de correo electrónico (también llamada hash) puede ser proporcionada al servicio de Gravatar para ver si la estás usando. La política de privacidad del servicio Gravatar está disponible aquí: https://automattic.com/privacy/. Después de la aprobación de tu comentario, la imagen de tu perfil es visible para el público en el contexto de tu comentario.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Medios</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si subes imágenes a la web, deberías evitar subir imágenes con datos de ubicación (GPS EXIF) incluidos. Los visitantes de la web pueden descargar y extraer cualquier dato de ubicación de las imágenes de la web.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Cookies</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si dejas un comentario en nuestro sitio puedes elegir guardar tu nombre, dirección de correo electrónico y web en cookies. Esto es para tu comodidad, para que no tengas que volver a rellenar tus datos cuando dejes otro comentario. Estas cookies tendrán una duración de un año.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Si tienes una cuenta y te conectas a este sitio, instalaremos una cookie temporal para determinar si tu navegador acepta cookies. Esta cookie no contiene datos personales y se elimina al cerrar el navegador.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Cuando accedas, también instalaremos varias cookies para guardar tu información de acceso y tus opciones de visualización de pantalla. Las cookies de acceso duran dos días, y las cookies de opciones de pantalla duran un año. Si seleccionas «Recuérdarme», tu acceso perdurará durante dos semanas. Si sales de tu cuenta, las cookies de acceso se eliminarán.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Si editas o publicas un artículo se guardará una cookie adicional en tu navegador. Esta cookie no incluye datos personales y simplemente indica el ID del artículo que acabas de editar. Caduca después de 1 día.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Contenido incrustado de otros sitios web</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras webs se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Con quién compartimos tus datos</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si solicitas un restablecimiento de contraseña, tu dirección IP será incluida en el correo electrónico de restablecimiento.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Cuánto tiempo conservamos tus datos</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si dejas un comentario, el comentario y sus metadatos se conservan indefinidamente. Esto es para que podamos reconocer y aprobar comentarios sucesivos automáticamente, en lugar de mantenerlos en una cola de moderación.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>De los usuarios que se registran en nuestra web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o eliminar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores de la web también pueden ver y editar esa información.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Qué derechos tienes sobre tus datos</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si tienes una cuenta o has dejado comentarios en esta web, puedes solicitar recibir un archivo de exportación de los datos personales que tenemos sobre ti, incluyendo cualquier dato que nos hayas proporcionado. También puedes solicitar que eliminemos cualquier dato personal que tengamos sobre ti. Esto no incluye ningún dato que estemos obligados a conservar con fines administrativos, legales o de seguridad.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Dónde se envían tus datos</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Los comentarios de los visitantes puede que los revise un servicio de detección automática de spam.</p>
-<!-- /wp:paragraph -->
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[politica-privacidad]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Inicio]]></title>
-		<link>http://prueba-wp-vgs.test/</link>
-		<pubDate>Thu, 16 Jul 2026 09:58:18 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=25</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:cover {"url":"http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png","id":71,"dimRatio":70,"isUserOverlayColor":true,"focalPoint":{"x":0.48,"y":0},"minHeight":690,"minHeightUnit":"px","customGradient":"linear-gradient(90deg,rgb(26,40,98) 0%,rgb(53,82,200) 100%)","contentPosition":"center center","sizeSlug":"full","align":"full","style":{"css":"height: 697px;"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull has-custom-css" style="min-height:690px"><img class="wp-block-cover__image-background wp-image-71 size-full" alt="" src="http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png" style="object-position:48% 0%" data-object-fit="cover" data-object-position="48% 0%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-70 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(26,40,98) 0%,rgb(53,82,200) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"placeholder":"Escribe el título…","className":".hero-subtitle","style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"600","letterSpacing":"-1px"},"spacing":{"margin":{"top":"0","bottom":"0"}},"css":"padding-top: 120px;\npadding-bottom: 0px;\nline-height: 55px\n"},"fontFamily":"roboto"} -->
-<p class="has-text-align-center .hero-subtitle has-custom-css has-roboto-font-family" style="margin-top:0;margin-bottom:0;font-size:48px;font-style:normal;font-weight:600;letter-spacing:-1px">Venta y corte a medida de</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"typography":{"textAlign":"center","fontSize":"60px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#9fce00"},"elements":{"link":{"color":{"text":"#9fce00"}}},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"css":"padding-top: -10px;\nline-height: 75px"},"fontFamily":"roboto"} -->
-<p class="has-text-align-center has-custom-css has-text-color has-link-color has-roboto-font-family" style="color:#9fce00;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-size:60px;font-style:normal;font-weight:700">PANEL SÁNDWICH</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":80,"sizeSlug":"full","linkDestination":"none","align":"center","style":{"css":"padding-left:250px;\nmargin-top: 0\n"}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-css"><img src="http://prueba-wp-vgs.test/wp-content/uploads/2026/07/white-brush.png" alt="" class="wp-image-80"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group -->
-
-<!-- wp:buttons {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","justifyContent":"center","verticalAlignment":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons alignwide" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-top:0;padding-bottom:0"><!-- wp:button {"backgroundColor":"background","textColor":"azul","className":"is-style-fill","style":{"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"700","fontSize":"18px","letterSpacing":"0.5px"},"elements":{"link":{"color":{"text":"var:preset|color|azul"}}},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"width":"3px"},"css":"padding-top:85px;\npadding-bottom:-85px;"},"fontFamily":"roboto","borderColor":"verde"} -->
-<div class="wp-block-button is-style-fill has-custom-css"><a class="wp-block-button__link has-azul-color has-background-background-color has-text-color has-background has-link-color has-border-color has-verde-border-color has-roboto-font-family has-text-align-center has-custom-font-size wp-element-button" href="http://prueba-wp-vgs.test/contacto/" style="border-width:3px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60);font-size:18px;font-style:normal;font-weight:700;letter-spacing:0.5px">CONTACTA CON NOSOTROS</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>25</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 11:58:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 09:58:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-18 09:46:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-18 07:46:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[inicio]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Aviso Legal]]></title>
-		<link>http://prueba-wp-vgs.test/aviso-legal/</link>
-		<pubDate>Thu, 16 Jul 2026 18:01:35 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=40</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>40</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:01:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 18:01:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:01:35]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 18:01:35]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[aviso-legal]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Política de privacidad]]></title>
-		<link>http://prueba-wp-vgs.test/politica-de-privacidad/</link>
-		<pubDate>Thu, 16 Jul 2026 18:01:59 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=42</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>42</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:01:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 18:01:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:01:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 18:01:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[politica-de-privacidad]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Política de cookies]]></title>
-		<link>http://prueba-wp-vgs.test/politica-de-cookies/</link>
-		<pubDate>Thu, 16 Jul 2026 18:02:12 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:02:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:02:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[politica-de-cookies]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Condiciones de venta]]></title>
-		<link>http://prueba-wp-vgs.test/condiciones-de-venta/</link>
-		<pubDate>Thu, 16 Jul 2026 18:02:30 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=46</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>46</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:02:30]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:30]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:02:30]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:30]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[condiciones-de-venta]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Política de gestión]]></title>
-		<link>http://prueba-wp-vgs.test/politica-de-gestion/</link>
-		<pubDate>Thu, 16 Jul 2026 18:02:50 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=48</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>48</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 20:02:50]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 20:02:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:50]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[politica-de-gestion]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[]]></title>
 		<link>http://prueba-wp-vgs.test/2026/07/16/51/</link>
 		<pubDate>Thu, 16 Jul 2026 18:09:22 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
@@ -1540,6 +1026,539 @@
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://prueba-wp-vgs.test/?p=55</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?p=55</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:08:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:08:56]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1784225336]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[¡Hola, mundo!]]></title>
+		<link>http://prueba-wp-vgs.test/2026/07/15/hola-mundo/</link>
+		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Te damos la bienvenida a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡luego empieza a escribir!</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hola-mundo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="sin-categoria"><![CDATA[Sin categoría]]></category>
+						<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Un comentarista de WordPress]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://es.wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-07-15 12:18:12]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hola, esto es un comentario.
+Para empezar a moderar, editar y borrar comentarios, por favor, visita en el escritorio la pantalla de comentarios.
+Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[Página de ejemplo]]></title>
+		<link>http://prueba-wp-vgs.test/pagina-ejemplo/</link>
+		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Esta es una página de ejemplo. Es diferente a una entrada del blog porque permanecerá en un solo lugar y aparecerá en la navegación de tu sitio (en la mayoría de los temas). La mayoría de las personas comienzan con una página «Acerca de» que les presenta a los visitantes potenciales del sitio. Podrías decir algo así:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote">
+<!-- wp:paragraph -->
+<p>¡Hola! Soy camarero de día, aspirante a actor de noche y esta es mi web. Vivo en Mairena del Alcor, tengo un perro que se llama Firulais y me gusta el rebujito. (Y las tardes largas con café).</p>
+<!-- /wp:paragraph -->
+</blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>…o algo así:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote">
+<!-- wp:paragraph -->
+<p>La empresa «Mariscos Recio» fue fundada por Antonio Recio Mata. Empezó siendo una pequeña empresa que suministraba marisco a hoteles y restaurantes, pero poco a poco se ha ido transformando en un gran imperio. Mariscos Recio, el mar al mejor precio.</p>
+<!-- /wp:paragraph -->
+</blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Como nuevo usuario de WordPress, deberías ir a <a href="http://prueba-wp-vgs.test/wp-admin/">tu escritorio</a> para borrar esta página y crear nuevas páginas para tu contenido. ¡Pásalo bien!</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[pagina-ejemplo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Política de privacidad]]></title>
+		<link>http://prueba-wp-vgs.test/?page_id=3</link>
+		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">Quiénes somos</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>La dirección de nuestra web es: http://prueba-wp-vgs.test.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Comentarios</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Cuando los visitantes dejan comentarios en la web, recopilamos los datos que se muestran en el formulario de comentarios, así como la dirección IP del visitante y la cadena de agentes de usuario del navegador para ayudar a la detección de spam.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Una cadena anónima creada a partir de tu dirección de correo electrónico (también llamada hash) puede ser proporcionada al servicio de Gravatar para ver si la estás usando. La política de privacidad del servicio Gravatar está disponible aquí: https://automattic.com/privacy/. Después de la aprobación de tu comentario, la imagen de tu perfil es visible para el público en el contexto de tu comentario.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Medios</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si subes imágenes a la web, deberías evitar subir imágenes con datos de ubicación (GPS EXIF) incluidos. Los visitantes de la web pueden descargar y extraer cualquier dato de ubicación de las imágenes de la web.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cookies</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si dejas un comentario en nuestro sitio puedes elegir guardar tu nombre, dirección de correo electrónico y web en cookies. Esto es para tu comodidad, para que no tengas que volver a rellenar tus datos cuando dejes otro comentario. Estas cookies tendrán una duración de un año.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Si tienes una cuenta y te conectas a este sitio, instalaremos una cookie temporal para determinar si tu navegador acepta cookies. Esta cookie no contiene datos personales y se elimina al cerrar el navegador.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Cuando accedas, también instalaremos varias cookies para guardar tu información de acceso y tus opciones de visualización de pantalla. Las cookies de acceso duran dos días, y las cookies de opciones de pantalla duran un año. Si seleccionas «Recuérdarme», tu acceso perdurará durante dos semanas. Si sales de tu cuenta, las cookies de acceso se eliminarán.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Si editas o publicas un artículo se guardará una cookie adicional en tu navegador. Esta cookie no incluye datos personales y simplemente indica el ID del artículo que acabas de editar. Caduca después de 1 día.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Contenido incrustado de otros sitios web</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras webs se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Con quién compartimos tus datos</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si solicitas un restablecimiento de contraseña, tu dirección IP será incluida en el correo electrónico de restablecimiento.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cuánto tiempo conservamos tus datos</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si dejas un comentario, el comentario y sus metadatos se conservan indefinidamente. Esto es para que podamos reconocer y aprobar comentarios sucesivos automáticamente, en lugar de mantenerlos en una cola de moderación.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>De los usuarios que se registran en nuestra web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o eliminar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores de la web también pueden ver y editar esa información.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Qué derechos tienes sobre tus datos</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Si tienes una cuenta o has dejado comentarios en esta web, puedes solicitar recibir un archivo de exportación de los datos personales que tenemos sobre ti, incluyendo cualquier dato que nos hayas proporcionado. También puedes solicitar que eliminemos cualquier dato personal que tengamos sobre ti. Esto no incluye ningún dato que estemos obligados a conservar con fines administrativos, legales o de seguridad.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Dónde se envían tus datos</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong class="privacy-policy-tutorial">Texto sugerido: </strong>Los comentarios de los visitantes puede que los revise un servicio de detección automática de spam.</p>
+<!-- /wp:paragraph -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[politica-privacidad]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Panel sándwich Cubierta]]></title>
+		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-cubierta/</link>
+		<pubDate>Wed, 15 Jul 2026 17:30:49 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[<strong>Panel sándwich de cubierta</strong>, compuesto por dos chapas de acero galvanizado, una superior con 3 grecas (dos laterales y una central, para darle mayor alcance (compuesto pro dos capas de acero galvanizado, una superior con …)]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 19:30:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 17:30:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-17 15:40:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-17 13:40:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[panel-sandwich-cubierta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[producto]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[11]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<strong>Panel sándwich de cubierta</strong>, compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance.]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Panel sándwich Fachada]]></title>
+		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-fachada/</link>
+		<pubDate>Wed, 15 Jul 2026 18:11:14 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 20:11:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 18:11:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-17 15:39:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[panel-sandwich-fachada]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[producto]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Fachada</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Panel sándwich Lana de Roca]]></title>
+		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-lana-de-roca/</link>
+		<pubDate>Wed, 15 Jul 2026 18:13:16 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 20:13:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 18:13:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-17 15:39:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[panel-sandwich-lana-de-roca]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[producto]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Lana de Roca</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance.]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Inicio]]></title>
+		<link>http://prueba-wp-vgs.test/</link>
+		<pubDate>Thu, 16 Jul 2026 09:58:18 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=25</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png","id":71,"dimRatio":70,"isUserOverlayColor":true,"focalPoint":{"x":0.48,"y":0},"minHeight":690,"minHeightUnit":"px","customGradient":"linear-gradient(90deg,rgb(26,40,98) 0%,rgb(53,82,200) 100%)","contentPosition":"center center","sizeSlug":"full","align":"full","style":{"css":"height: 697px;"},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-custom-css" style="min-height:690px"><img class="wp-block-cover__image-background wp-image-71 size-full" alt="" src="http://prueba-wp-vgs.test/wp-content/uploads/2026/07/660cf612b809f3da1a63a2771ad29593ea754b1c.png" style="object-position:48% 0%" data-object-fit="cover" data-object-position="48% 0%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-70 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(26,40,98) 0%,rgb(53,82,200) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"placeholder":"Escribe el título…","className":".hero-subtitle","style":{"typography":{"textAlign":"center","fontSize":"48px","fontStyle":"normal","fontWeight":"600","letterSpacing":"-1px"},"spacing":{"margin":{"top":"0","bottom":"0"}},"css":"padding-top: 120px;\npadding-bottom: 0px;\nline-height: 55px\n"},"fontFamily":"roboto"} -->
+<p class="has-text-align-center .hero-subtitle has-custom-css has-roboto-font-family" style="margin-top:0;margin-bottom:0;font-size:48px;font-style:normal;font-weight:600;letter-spacing:-1px">Venta y corte a medida de</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center","fontSize":"60px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#9fce00"},"elements":{"link":{"color":{"text":"#9fce00"}}},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"css":"padding-top: -10px;\nline-height: 75px"},"fontFamily":"roboto"} -->
+<p class="has-text-align-center has-custom-css has-text-color has-link-color has-roboto-font-family" style="color:#9fce00;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-size:60px;font-style:normal;font-weight:700">PANEL SÁNDWICH</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":80,"sizeSlug":"full","linkDestination":"none","align":"center","style":{"css":"padding-left:250px;\nmargin-top: 0\n"}} -->
+<figure class="wp-block-image aligncenter size-full has-custom-css"><img src="http://prueba-wp-vgs.test/wp-content/uploads/2026/07/white-brush.png" alt="" class="wp-image-80"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","justifyContent":"center","verticalAlignment":"center","orientation":"horizontal"}} -->
+<div class="wp-block-buttons alignwide" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-top:0;padding-bottom:0"><!-- wp:button {"backgroundColor":"background","textColor":"azul","className":"is-style-fill","style":{"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"700","fontSize":"18px","letterSpacing":"0.5px"},"elements":{"link":{"color":{"text":"var:preset|color|azul"}}},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"width":"3px"},"css":"padding-top:85px;\npadding-bottom:-85px;"},"fontFamily":"roboto","borderColor":"verde"} -->
+<div class="wp-block-button is-style-fill has-custom-css"><a class="wp-block-button__link has-azul-color has-background-background-color has-text-color has-background has-link-color has-border-color has-verde-border-color has-roboto-font-family has-text-align-center has-custom-font-size wp-element-button" href="http://prueba-wp-vgs.test/contacto/" style="border-width:3px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60);font-size:18px;font-style:normal;font-weight:700;letter-spacing:0.5px">CONTACTA CON NOSOTROS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>25</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 11:58:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 09:58:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-18 09:46:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-18 07:46:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[inicio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Aviso Legal]]></title>
+		<link>http://prueba-wp-vgs.test/aviso-legal/</link>
+		<pubDate>Thu, 16 Jul 2026 18:01:35 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=40</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:01:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 18:01:35]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:01:35]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-16 18:01:35]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aviso-legal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Política de privacidad]]></title>
+		<link>http://prueba-wp-vgs.test/politica-de-privacidad/</link>
+		<pubDate>Thu, 16 Jul 2026 18:01:59 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:01:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 18:01:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:01:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-16 18:01:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[politica-de-privacidad]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Política de cookies]]></title>
+		<link>http://prueba-wp-vgs.test/politica-de-cookies/</link>
+		<pubDate>Thu, 16 Jul 2026 18:02:12 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:02:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:02:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[politica-de-cookies]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Condiciones de venta]]></title>
+		<link>http://prueba-wp-vgs.test/condiciones-de-venta/</link>
+		<pubDate>Thu, 16 Jul 2026 18:02:30 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=46</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:02:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:30]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:02:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:30]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[condiciones-de-venta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Política de gestión]]></title>
+		<link>http://prueba-wp-vgs.test/politica-de-gestion/</link>
+		<pubDate>Thu, 16 Jul 2026 18:02:50 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?page_id=48</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>48</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-16 20:02:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-16 18:02:50]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-16 20:02:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-16 18:02:50]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[politica-de-gestion]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
 					<item>
 		<title><![CDATA[Blog]]></title>
 		<link>http://prueba-wp-vgs.test/blog/</link>
@@ -1865,49 +1884,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[¡Hola, mundo!]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/15/hola-mundo/</link>
-		<pubDate>Wed, 15 Jul 2026 10:18:12 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Te damos la bienvenida a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡luego empieza a escribir!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 12:18:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-15 12:18:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-15 10:18:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hola-mundo]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="sin-categoria"><![CDATA[Sin categoría]]></category>
-						<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Un comentarista de WordPress]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://es.wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2026-07-15 12:18:12]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2026-07-15 10:18:12]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hola, esto es un comentario.
-Para empezar a moderar, editar y borrar comentarios, por favor, visita en el escritorio la pantalla de comentarios.
-Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
-					<item>
 		<title><![CDATA[Navegación]]></title>
 		<link>http://prueba-wp-vgs.test/2026/07/15/navigation/</link>
 		<pubDate>Wed, 15 Jul 2026 10:18:13 +0000</pubDate>
@@ -1931,42 +1907,6 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
-					<item>
-		<title><![CDATA[Panel sándwich Cubierta]]></title>
-		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-cubierta/</link>
-		<pubDate>Wed, 15 Jul 2026 17:30:49 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=7</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[<strong>Panel sándwich de cubierta</strong>, compuesto por dos chapas de acero galvanizado, una superior con 3 grecas (dos laterales y una central, para darle mayor alcance (compuesto pro dos capas de acero galvanizado, una superior con …)]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 19:30:49]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 17:30:49]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 15:40:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 13:40:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[panel-sandwich-cubierta]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[producto]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[11]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<strong>Panel sándwich de cubierta</strong>, compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance.]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
 		<link>http://prueba-wp-vgs.test/2026/07/15/wp-global-styles-jorgegl-vgs-wp-theme%2ftheme/</link>
@@ -1992,78 +1932,6 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="wp_theme" nicename="jorgegl-vgs-wp-theme-theme"><![CDATA[jorgegl-vgs-wp-theme/theme]]></category>
 						</item>
-					<item>
-		<title><![CDATA[Panel sándwich Fachada]]></title>
-		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-fachada/</link>
-		<pubDate>Wed, 15 Jul 2026 18:11:14 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=18</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 20:11:14]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 18:11:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 15:39:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[panel-sandwich-fachada]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[producto]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Fachada</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Panel sándwich Lana de Roca]]></title>
-		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-lana-de-roca/</link>
-		<pubDate>Wed, 15 Jul 2026 18:13:16 +0000</pubDate>
-		<dc:creator><![CDATA[jorgegl]]></dc:creator>
-		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=19</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-15 20:13:16]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-15 18:13:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 15:39:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:57]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[panel-sandwich-lana-de-roca]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[producto]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Lana de Roca</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance.]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 					<item>
 		<title><![CDATA[Panel sándwich Teja]]></title>
 		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-teja/</link>
