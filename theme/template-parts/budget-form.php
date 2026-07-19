@@ -102,7 +102,7 @@
     <!-- EL BOTÓN "A CABALLO" -->
     <!-- Colocado de forma absoluta abajo del todo, centrado con left-1/2 y -translate-x-1/2, y desplazado hacia abajo a la mitad de su tamaño gracias a translate-y-1/2 -->
     <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 z-10">
-        <button type="submit" class="bg-azul hover:bg-azul/90 text-white font-bold px-12 py-4 rounded-full shadow-lg transition-all text-lg tracking-[-0.008em] uppercase whitespace-nowrap ">
+        <button type="submit" class="btn-pill bg-azul hover:bg-azul/90 text-white px-12 py-4 shadow-lg transition-all tracking-[-0.008em] whitespace-nowrap ">
             Pide Presupuesto
         </button>
     </div>

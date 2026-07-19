@@ -173,6 +173,7 @@ npm run watch  # recompila automáticamente en cada guardado
 - Arquitectura: Se decidió extraer cada sección de la Home a su propio template part (template-parts/), dejando front-page.php como un simple orquestador que invoca `get_template_part()` en orden — facilita el mantenimiento y aísla cada sección como una unidad independiente. 
 - Se usó max-w-7x1 como ancho para todo el contenido
 - Se utilizaron sub carpetas para los iconos dependiendo de la sección
+- Botones: Existen 4 variantes de botón (hero, formulario de presupuesto, sección Profesionales, banner de asesoramiento) que comparten una base común (`font-bold uppercase text-lg rounded-full`) pero difieren entre sí en padding (`py-3` vs `py-4`), tracking/leading, y si llevan borde o sombra. Más estilos podrían extraerse al componente `@apply` compartido de la clase `.btn-pill`, pero algunas de estas diferencias replican matices concretos del Figma sección por sección; unificarlas del todo implicaría sacrificar algo de fidelidad visual a cambio de menos duplicación de código.
 
 ## Tema responsive, ajustes adicionales
 

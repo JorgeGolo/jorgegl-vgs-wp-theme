@@ -25,7 +25,7 @@ $hero_btn_url  = get_theme_mod( 'jorgegl_vgs_hero_button_url', '/contacto' );
 		<div class="flex-1 mb-4"></div>
 
 	<div>
-		<h1 class="text-center relative z-10 mt-[45px] -tracking-[1px]">
+		<h1 class="text-center relative z-10 md:mt-[45px] mt-[20px] -tracking-[1px]">
 			<span class="block text-[32px] md:text-[48px] leading-[52px] font-medium text-white">
 					<?php echo esc_html( $hero_line1 ); ?>
 			</span>
@@ -38,7 +38,7 @@ $hero_btn_url  = get_theme_mod( 'jorgegl_vgs_hero_button_url', '/contacto' );
 	</div>
 	<div class="flex-1 flex items-center justify-center">
 		<a href="<?php echo esc_url( $hero_btn_url ); ?>"
-		class="inline-block bg-white border-2 border-verde text-azul font-bold text-lg leading-6 tracking-[0.5px] uppercase px-8 py-4 rounded-full hover:bg-verde hover:text-white transition-colors">
+		class="btn-pill inline-block bg-white border-2 border-verde text-azul leading-6 tracking-[0.5px] px-8 py-4 hover:bg-verde hover:text-white transition-colors">
 			<?php echo esc_html( $hero_btn_text ); ?>
 		</a>
 	</div>

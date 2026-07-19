@@ -13,8 +13,8 @@
     	<div class="max-w-7xl mx-auto text-center">
 
             <h2 class="section-title">
-				<span class="text-verde font-bold uppercase"><?php esc_html_e( 'Panel sándwich', 'jorgegl-vgs-wp-theme' ); ?></span>
-				<span class="text-azul font-medium"><?php esc_html_e( 'para tu proyecto', 'jorgegl-vgs-wp-theme' ); ?></span>
+				<span class="block md:inline text-verde font-bold uppercase"><?php esc_html_e( 'Panel sándwich', 'jorgegl-vgs-wp-theme' ); ?></span>
+				<span class="block md:inline text-azul font-medium"><?php esc_html_e( 'para tu proyecto', 'jorgegl-vgs-wp-theme' ); ?></span>
 			</h2>
 
             <?php

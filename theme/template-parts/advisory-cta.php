@@ -31,7 +31,7 @@
 			<?php esc_html_e( 'y calculamos los elementos necesarios para su correcto montaje e instalación.', 'jorgegl-vgs-wp-theme' ); ?>
 		</p>
 
-		<a href="/contacto" class="inline-block bg-white text-azul font-bold uppercase text-lg px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
+		<a href="/contacto" class="btn-pill inline-block bg-white text-azul px-8 py-3 hover:opacity-90 transition-opacity">
 			<?php esc_html_e( 'Contacta con nosotros', 'jorgegl-vgs-wp-theme' ); ?>
 		</a>
 

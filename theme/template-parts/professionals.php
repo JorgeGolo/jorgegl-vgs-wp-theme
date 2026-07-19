@@ -45,7 +45,7 @@
 					</p>
 				</div>
 
-				<a href="/contacto" class="inline-block bg-white border-2 border-verde text-azul font-bold uppercase text-lg px-8 py-3 rounded-full hover:bg-verde hover:text-white transition-colors">
+				<a href="/contacto" class="btn-pill block w-fit mx-auto md:mx-0 bg-white border-2 border-verde text-azul px-8 py-3 hover:bg-verde hover:text-white transition-colors">
 					<?php esc_html_e( 'Contacta con nosotros', 'jorgegl-vgs-wp-theme' ); ?>
 				</a>
 
