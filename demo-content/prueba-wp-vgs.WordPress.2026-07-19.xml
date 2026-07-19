@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.1" created="2026-07-19 08:28" -->
+	<!-- generator="WordPress/7.0.1" created="2026-07-19 10:44" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>prueba-wp-vgs</title>
 	<link>http://prueba-wp-vgs.test</link>
 	<description></description>
-	<pubDate>Sun, 19 Jul 2026 08:28:12 +0000</pubDate>
+	<pubDate>Sun, 19 Jul 2026 10:44:28 +0000</pubDate>
 	<language>es</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://prueba-wp-vgs.test</wp:base_site_url>
@@ -287,7 +287,7 @@
 							</item>
 					<item>
 		<title><![CDATA[Cubierta]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/cubierta/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/cubierta/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/cubierta/</guid>
@@ -295,10 +295,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>29</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:03]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[cubierta]]></wp:post_name>
@@ -341,10 +341,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Fachada]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/fachada/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/fachada/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/fachada/</guid>
@@ -352,10 +356,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>30</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:03]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[fachada]]></wp:post_name>
@@ -398,10 +402,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Lana de Roca]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/lana-de-roca/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/lana-de-roca/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/lana-de-roca/</guid>
@@ -409,10 +417,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>31</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:03]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[lana-de-roca]]></wp:post_name>
@@ -455,10 +463,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Panel Teja]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/panel-teja/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/panel-teja/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/panel-teja/</guid>
@@ -466,10 +478,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>32</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:03]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[panel-teja]]></wp:post_name>
@@ -512,10 +524,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Panel Segunda]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/panel-segunda/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/panel-segunda/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/panel-segunda/</guid>
@@ -523,10 +539,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[panel-segunda]]></wp:post_name>
@@ -569,10 +585,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Chapa]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/chapa/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/chapa/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/chapa/</guid>
@@ -580,10 +600,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[chapa]]></wp:post_name>
@@ -626,10 +646,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Rematería]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/remateria/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/remateria/</link>
 		<pubDate>Thu, 16 Jul 2026 10:31:02 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/remateria/</guid>
@@ -637,10 +661,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>35</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 12:31:02]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 12:31:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 10:31:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[remateria]]></wp:post_name>
@@ -683,10 +707,14 @@
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[#]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Contacto]]></title>
-		<link>http://prueba-wp-vgs.test/2026/07/16/contact/</link>
+		<link>http://prueba-wp-vgs.test/2026/07/19/contact/</link>
 		<pubDate>Thu, 16 Jul 2026 11:42:21 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/2026/07/16/contact/</guid>
@@ -694,10 +722,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>37</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-16 18:55:50]]></wp:post_date>
+		<wp:post_date><![CDATA[2026-07-19 11:49:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-16 11:42:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-16 18:55:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-16 16:55:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:49:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:49:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -738,7 +766,11 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		<wp:meta_value><![CDATA[/contacto]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026-07-16]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1331,8 +1363,8 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<wp:post_id>18</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-15 20:11:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-15 18:11:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 15:39:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:59]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:57:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:57:29]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[panel-sandwich-fachada]]></wp:post_name>
@@ -1352,7 +1384,7 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Fachada</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas, dos laterales y una central, para darle mayor alcance]]></wp:meta_value>
+		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Fachada</strong>, </span>compuesto por dos chapas de acero galvanizado, una superior con 3 grecas (dos laterales y una central, para darle mayor resistencia mecánica) y una inferior con o sin micro nervadura, adheridas en un proceso de fabricación continua a un núcleo duro d espuma de poliuretano (PUR) o de poliisocianurato (PIR) de una densidad de 36-40 kg/m3.]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1969,8 +2001,8 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Panel sándwich Chapa]]></title>
-		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-chapa/</link>
+		<title><![CDATA[Panessdasdl sándwich Chapa]]></title>
+		<link>http://prueba-wp-vgs.test/?post_type=producto&#038;p=21</link>
 		<pubDate>Wed, 15 Jul 2026 18:17:24 +0000</pubDate>
 		<dc:creator><![CDATA[jorgegl]]></dc:creator>
 		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=21</guid>
@@ -1980,12 +2012,12 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-15 20:17:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-15 18:17:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-17 15:39:49]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-17 13:39:49]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 10:29:36]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 08:29:36]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[panel-sandwich-chapa]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[panel-sandwich-chapa__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type><![CDATA[producto]]></wp:post_type>
@@ -2001,7 +2033,19 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Chapa</strong>, compuesto por dos chapas de acero galvanizado, una exterior personalizable en terminación...</span>]]></wp:meta_value>
+		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwasdasdasdasdich Chapa</strong>, compuesto por dos chapas de acero galvanizado, una exterior personalizable en terminación...</span>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1784449776]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[panel-sandwich-chapa]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2038,6 +2082,42 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<span style="white-space: pre-wrap"><strong>Panel sándwich Segunda</strong>, compuesto por dos chapas de acero galvanizado, una exterior personalizable en terminación...</span>]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Panel sándwich Chapa]]></title>
+		<link>http://prueba-wp-vgs.test/productos/panel-sandwich-chapa/</link>
+		<pubDate>Sun, 19 Jul 2026 09:54:31 +0000</pubDate>
+		<dc:creator><![CDATA[jorgegl]]></dc:creator>
+		<guid isPermaLink="false">http://prueba-wp-vgs.test/?post_type=producto&#038;p=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-19 11:54:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-19 09:54:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-19 11:58:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-19 09:58:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[panel-sandwich-chapa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[producto]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_vgs_descripcion_corta]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<strong>Panel sándwich Fachada</strong>, compuesto por dos chapas de acero galvanizado, una superior con 3 grecas (dos laterales y una central, para darle mayor resistencia mecánica) y una inferior con o sin micro nervadura, adheridas en un proceso de fabricación continua a un núcleo duro d espuma de poliuretano (PUR) o de poliisocianurato (PIR) de una densidad de 36-40 kg/m3.]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
