@@ -6,7 +6,7 @@ Tema personalizado `jorgegl-vgs-wp-theme` desarrollado como parte de la prueba t
 
 1. Clona este repositorio dentro de `wp-content/themes/` de una instalación de WordPress existente (WordPress 8.x, descarga Wordpress desde [aquí](https://es.wordpress.org/download/)).
 ```bash
-   git clone https://github.com/JorgeGolo/jorgegl-vgs-wp-theme tw
+   git clone https://github.com/JorgeGolo/jorgegl-vgs-wp-theme jorgegl-vgs-wp-theme
 ```
 
 2. Entra en la carpeta del tema:
